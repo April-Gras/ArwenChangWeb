@@ -1,17 +1,33 @@
 <template>
 	<div class="pageWrapper">
-		<BuildingHeadersRegular>
-			<span>Header H4</span>
-		</BuildingHeadersRegular>
-		<BuildingHeadersBig>
-			<span>Header H3</span>
-		</BuildingHeadersBig>
-		<BuildingHeadersBigger>
-			<span>Header H2</span>
-		</BuildingHeadersBigger>
-		<BuildingHeadersBiggest>
-			<span>Header H1</span>
-		</BuildingHeadersBiggest>
+		<div class="titleContainer" v-if="false">
+			<BuildingHeadersRegular>
+				<span>Header H4</span>
+			</BuildingHeadersRegular>
+			<BuildingHeadersBig>
+				<span>Header H3</span>
+			</BuildingHeadersBig>
+			<BuildingHeadersBigger>
+				<span>Header H2</span>
+			</BuildingHeadersBigger>
+			<BuildingHeadersBiggest>
+				<span>Header H1</span>
+			</BuildingHeadersBiggest>
+		</div>
+		<div class="gridWrapper">
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+			<div class="elem"></div>
+		</div>
 	</div>
 </template>
 <script lang="ts">
@@ -32,16 +48,14 @@
 	});
 </script>
 <style scoped>
-	.pageWrapper > * {
-		margin-bottom: 8px;
-		padding-bottom: 8px;
-		border-bottom: 1px solid #;
+	.gridWrapper {
+		display: grid;
+		grid-template-columns: repeat(var(--grid-count), 1fr);
+		grid-gap: var(--grid-gap);
 	}
 
-	.pageWrapper {
-		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
-		flex-direction: column;
+	.gridWrapper > .elem {
+		background-color: red;
+		height: 150px;
 	}
 </style>

@@ -23,7 +23,8 @@ export default {
 		'~/assets/colors.css',
 		'~/assets/fonts.css',
 		'~/assets/font-sizes.css',
-		'~/assets/shared.css'
+		'~/assets/shared.css',
+		'~/assets/grid.css',
 	],
 	plugins: [],
 	buildModules: [ '@nuxt/typescript-build' ],
