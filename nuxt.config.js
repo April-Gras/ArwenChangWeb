@@ -22,13 +22,16 @@ export default {
 	css: [
 		'~/assets/colors.css',
 		'~/assets/fonts.css',
+		'~/assets/transition.css',
 		'~/assets/font-sizes.css',
 		'~/assets/shared.css',
 		'~/assets/grid.css',
 	],
-	plugins: [],
+	plugins: [
+		'plugins/resize.ts',
+	],
 	buildModules: [ '@nuxt/typescript-build' ],
 	modules: [ '@nuxtjs/axios' ],
 	axios: {},
-	build: {}
+	build: { parallel: true },
 }

@@ -4,21 +4,11 @@
 }
 
 :root {
-	--grid-count			: 4;
+	--grid-count			: 2;
 	--grid-gap				: 16px;
 	--grid-side-pad			: 16px;
 	--grid-page-width		: calc(100vw - calc(var(--grid-gap) * 2));
 };
-
-@media screen and (min-width: 480px) {
-	:root {};
-}
-
-@media screen and (min-width: 768px) {
-	:root {
-		--grid-count		: 8;
-	};
-}
 
 @media screen and (min-width: 1024px) {
 	:root {

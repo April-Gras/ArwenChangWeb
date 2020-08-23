@@ -1,5 +1,5 @@
 <template>
-	<h2 class="title bigger">
+	<h2 class="title biggest">
 		<slot></slot>
 	</h2>
 </template>
@@ -9,8 +9,8 @@
 	export default Vue.extend({ });
 </script>
 <style scoped>
-	.bigger {
-		font-weight: 700;
+	.biggest {
+		font-weight: bold;
 		font-size: var(--font-size-title-biggest);
 	}
 </style>

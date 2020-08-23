@@ -1,3 +1,6 @@
+/*
+ * HIND
+*/
 @font-face {
 	font-family: 'Hind';
 	font-style: normal;
@@ -24,4 +27,35 @@
 	font-style: normal;
 	font-weight: 700;
 	src: local("Hind-Bold"), local("Hind Bold"), url("./fonts/Hind-Bold.ttf");
+}
+
+/*
+ * PINGFANG
+*/
+@font-face {
+	font-family: 'PingFang';
+	font-style: normal;
+	font-weight: 400;
+	src: local("PingFang-Regular"), local("PingFang Regular"), url("./fonts/PingFang-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'PingFang';
+	font-style: normal;
+	font-weight: 500;
+	src: local("PingFang-Medium"), local("PingFang Medium"), url("./fonts/PingFang-Medium.ttf");
+}
+
+@font-face {
+	font-family: 'PingFang';
+	font-style: normal;
+	font-weight: 600;
+	src: local("PingFang-Bold"), local("PingFang Bold"), url("./fonts/PingFang-Bold.ttf");
+}
+
+@font-face {
+	font-family: 'PingFang';
+	font-style: normal;
+	font-weight: 700;
+	src: local("PingFang-Bold"), local("PingFang Bold"), url("./fonts/PingFang-Bold.ttf");
 }
