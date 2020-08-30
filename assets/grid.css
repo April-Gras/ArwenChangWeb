@@ -12,8 +12,9 @@
 
 .desktopOnly { display: none;  }
 
-@media screen and (min-width: 876px) {
+@media screen and (min-width: 1000px) {
 	.desktopOnly { display: unset;  }
+
 	:root {
 		--grid-page-width	: 940px;
 		--grid-count		: 12;

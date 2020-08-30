@@ -51,4 +51,6 @@
 		font-size: var(--font-size-small);
 		color: var(--color-darkest);
 	}
+
+	.layoutWrapper { overflow: hidden; }
 </style>
