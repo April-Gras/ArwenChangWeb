@@ -33,29 +33,29 @@
  * PINGFANG
 */
 @font-face {
-	font-family: 'PingFang';
+	font-family: 'NotoSansTC';
 	font-style: normal;
 	font-weight: 400;
-	src: local("PingFang-Regular"), local("PingFang Regular"), url("./fonts/PingFang-Regular.ttf");
+	src: local("NotoSansTC-Regular"), local("NotoSansTC Regular"), url("./fonts/NotoSansTC-Regular.otf");
 }
 
 @font-face {
-	font-family: 'PingFang';
+	font-family: 'NotoSansTC';
 	font-style: normal;
 	font-weight: 500;
-	src: local("PingFang-Medium"), local("PingFang Medium"), url("./fonts/PingFang-Medium.ttf");
+	src: local("NotoSansTC-Medium"), local("NotoSansTC Medium"), url("./fonts/NotoSansTC-Medium.otf");
 }
 
 @font-face {
-	font-family: 'PingFang';
+	font-family: 'NotoSansTC';
 	font-style: normal;
 	font-weight: 600;
-	src: local("PingFang-Bold"), local("PingFang Bold"), url("./fonts/PingFang-Bold.ttf");
+	src: local("NotoSansTC-Bold"), local("NotoSansTC Bold"), url("./fonts/NotoSansTC-Bold.otf");
 }
 
 @font-face {
-	font-family: 'PingFang';
+	font-family: 'NotoSansTC';
 	font-style: normal;
 	font-weight: 700;
-	src: local("PingFang-Bold"), local("PingFang Bold"), url("./fonts/PingFang-Bold.ttf");
+	src: local("NotoSansTC-Bold"), local("NotoSansTC Bold"), url("./fonts/NotoSansTC-Bold.otf");
 }

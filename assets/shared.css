@@ -7,10 +7,16 @@ h1, h2, h3, h4 {
     font-weight: unset;
 }
 
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
 body {
 	color: var(--color-darkest);
-	font-family: Hind, PingFang;
+	font-family: Hind, NotoSansTC;
 	margin: 0px;
+    font-size: var(--font-size-regular);
 }
 
 .capitalize { text-transform: uppercase; }
@@ -40,3 +46,5 @@ button {
     border-color: unset;
     border-image: unset;
 }
+
+.preWrap { white-space: pre-wrap; }

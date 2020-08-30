@@ -1,0 +1,23 @@
+@media screen and (min-width: 1000px) {
+	.navigatorWrapper {
+		padding: 21px var(--grid-side-pad);
+		height: 72px;
+	}
+
+	.navTable > a {
+		font-weight: 600;
+		font-size: var(--font-size-regular);
+		margin-right: 40px;
+		color: var(--color-darkest);
+		opacity: 0.6;
+		transition: 0.15s;
+	}
+
+	.navTable > a:hover {
+		color: var(--color-teal);
+		transition: 0.1s;
+		opacity: 1;
+	}
+
+	.navTable > a:last-child { margin-right: 0px; }
+}

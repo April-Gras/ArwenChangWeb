@@ -12,6 +12,16 @@
 	.section {
 		padding-top: 60px;
 		padding-bottom: 60px;
-		border-bottom: 1px solid var(--color-main-one-light);
+		position: relative;
+	}
+
+	.section:before {
+		position: absolute;
+		content: '';
+		left: calc(var(--grid-side-pad) * -1);
+		bottom: 0px;
+		width: 100vw;
+		height: 1px;
+		background-color: var(--color-teal-light);
 	}
 </style>

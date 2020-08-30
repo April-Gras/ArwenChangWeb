@@ -8,11 +8,16 @@
 	--grid-gap				: 16px;
 	--grid-side-pad			: 16px;
 	--grid-page-width		: calc(100vw - calc(var(--grid-gap) * 2));
-};
+}
 
-@media screen and (min-width: 1024px) {
+.desktopOnly { display: none;  }
+
+@media screen and (min-width: 876px) {
+	.desktopOnly { display: unset;  }
 	:root {
 		--grid-page-width	: 940px;
 		--grid-count		: 12;
-	};
+		--grid-gap			: 32px;
+		--grid-side-pad		: calc((100vw - var(--grid-page-width)) / 2);
+	}
 }

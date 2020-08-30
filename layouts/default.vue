@@ -2,6 +2,7 @@
 	<div class="layoutWrapper">
 		<navigation/>
 		<Nuxt/>
+		<div class="footer">© Arwen Chang 2020</div>
 	</div>
 </template>
 
@@ -25,8 +26,8 @@
 
 				this.resizeEventHolder = window.addEventListener('resize', function() {
 					vm.SET_SCREEN_SIZE({
-						x_size: window.outerHeight,
-						y_size: window.outerWidth
+						x_size: window.outerWidth,
+						y_size: window.outerHeight
 					});
 				});
 			}
@@ -44,8 +45,10 @@
 </script>
 
 <style scoped>
-	.lmao {
-		height: 9000px;
-		background-color: green;
+	.footer {
+		padding: 60px;
+		text-align: center;
+		font-size: var(--font-size-small);
+		color: var(--color-darkest);
 	}
 </style>
