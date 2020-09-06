@@ -1,6 +1,10 @@
 export default {
 	mode: 'universal',
 	target: 'server',
+	pageTransition: {
+		name: 'layout',
+		mode: 'out-in',
+	},
 	head: {
 		title: process.env.npm_package_name || '',
 		meta: [{

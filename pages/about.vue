@@ -1,5 +1,16 @@
 <template>
 	<div class="pageWrapper">
+		<buildingSection class="introSection">
+			<div class="textWrap">
+				<BuildingHeadersBigger class="title">Arwen Chang</BuildingHeadersBigger>
+				<div>我是張雅雯，一個多方嘗試的產品設計師，擁有設計、使用者研究、網頁切版方面的經驗。</div>
+				<div class="preWrap">
+					<span>我想加入以使用者為中心的產品團隊，打造能真正解決使用者問題的數位產品。</span>
+					<span>能夠讓產品幫助並影響人們的生活，是我工作的成就感來源之一。</span>
+				</div>
+			</div>
+			<div class="pictureWrap"></div>
+		</buildingSection>
 		<BuildingSection class="resumeSectionWrap">
 			<BuildingSubsectionsTealTitle>
 				<template v-slot:title>工作經驗</template>
@@ -106,5 +117,46 @@
 	.pillHolder > div {
 		margin-bottom: 10px;
 		margin-right: 10px;
+	}
+
+	.textWrap { text-align: center; }
+	.textWrap > * { margin-bottom: 16px; }
+	.textWrap > *:last-child { margin-bottom: 0px; }
+
+	.textWrap { margin-bottom: 40px; }
+
+	.pictureWrap {
+		position: relative;
+		width: 288px;
+		height: 281px;
+		background-color: #EBEBEB;
+		margin: 0px auto;
+	}
+
+	.introSection { padding-bottom: 0px; }
+</style>
+<style scoped>
+	@media screen and (min-width: 1000px) {
+		.introSection {
+			display: grid;
+			flex-direction: row-reverse;
+			grid-template-columns: 6fr 5fr;
+			grid-auto-flow: dense;
+		}
+
+		.pictureWrap {
+			width: 450px;
+			height: 438px;
+			margin: 0px 35px 0px 0px;
+		}
+
+		.textWrap {
+			grid-column-start: 2;
+			text-align: left;
+			margin-bottom: 0px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
 	}
 </style>
