@@ -1,5 +1,5 @@
 <template>
-	<div class="subsectionsTealTitleWrapper">
+	<div class="subsectionsIndexWrapper">
 		<div class="titleWrap">
 			<slot name="title"></slot>
 		</div>
@@ -14,7 +14,7 @@
 	export default Vue.extend({});
 </script>
 <style scoped>
-.subsectionsTealTitleWrapper {
+.subsectionsIndexWrapper {
 	width: 100%;
 	display: block;
 	position: relative;
@@ -23,14 +23,13 @@
 .titleWrap { margin-bottom: 16px; }
 
 .titleWrap, .titleWrap > span {
-	color: var(--color-teal);
 	font-weight: 600;
 	font-size: var(--font-size-regular);
 }
 </style>
 <style scoped>
 @media screen and (min-width: 1000px) {
-	.subsectionsTealTitleWrapper {
+	.subsectionsIndexWrapper {
 		display: grid;
 		grid-template-columns: 2fr 10fr;
 		grid-gap: var(--grid-gap);

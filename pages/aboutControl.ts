@@ -3,7 +3,7 @@ import Vue from 'vue';
 import BuildingPill from '@/components/building/pill.vue';
 import BuildingSection from '@/components/building/section.vue';
 import BuildingHeadersBigger from '@/components/building/headers/bigger.vue';
-import BuildingSubsectionsTealTitle from '@/components/building/subsections/tealTitle.vue';
+import BuildingSubsectionsTealTitle from '@/components/building/subsections/title/teal.vue';
 import BuildingSubsectionsTripleContent from '@/components/building/subsections/tripleContent.vue';
 
 export default Vue.extend({

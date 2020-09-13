@@ -1,0 +1,41 @@
+.topContent, .makeGrey { background-color: var(--color-grey); }
+.makeNeutral {
+	background-color: var(--color-neutral);
+	padding: 60px 0px;
+}
+
+.header {
+	margin-bottom: 60px;
+}
+
+.topContent {
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.topContent > img {
+	width: 100%;
+	max-width: 787px;
+	position: relative;
+	object-position: center;
+	object-fit: contain;
+	margin: 0px auto;
+	filter: drop-shadow(var(--shadow-picture));
+}
+
+.pillTitle {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--color-neutral);
+}
+
+.pills > .pillElement { margin-bottom: 8px; }
+.pills > .pillElement:last-child { margin-bottom: 0px; }
+
+.bulletPoint { margin-bottom: 20px; }
+.bulletPoints > .bulletPoint:last-child { margin-bottom: 0px }

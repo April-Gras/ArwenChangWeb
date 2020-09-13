@@ -30,6 +30,10 @@
 						y_size: window.outerHeight
 					});
 				});
+				vm.SET_SCREEN_SIZE({
+					x_size: window.outerWidth,
+					y_size: window.outerHeight
+				});
 			}
 		},
 		beforeDestroy: function() {

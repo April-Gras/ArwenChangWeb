@@ -48,3 +48,8 @@ button {
 }
 
 .preWrap { white-space: pre-wrap; }
+
+.gapMarge { margin-bottom: 8px; }
+.titleMarge { margin-bottom: 32px; }
+.mediumMarge { margin-bottom: 40px; }
+.largeMarge { margin-bottom: 60px; }

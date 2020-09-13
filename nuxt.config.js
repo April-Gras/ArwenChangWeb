@@ -30,6 +30,7 @@ export default {
 		'~/assets/font-sizes.css',
 		'~/assets/shared.css',
 		'~/assets/grid.css',
+		'~/assets/shadows.css',
 	],
 	plugins: [
 		'plugins/resize.ts',

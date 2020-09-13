@@ -1,8 +1,6 @@
 import Vue						from 'vue';
 import { mapState }				from 'vuex';
 
-import { ResizeState }			from '@/store/resize';
-
 import BuildingSection			from '@/components/building/section.vue';
 import BuildingButtonTeal		from '@/components/building/buttons/teal.vue';
 import BuildingCardsPreview		from '@/components/building/cards/preview.vue';
