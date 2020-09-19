@@ -1,4 +1,4 @@
-# ArwenChangWeb
+### How to launch
 
 - Install [yarn](https://classic.yarnpkg.com/en/docs/install/)
 - run `yarn install` to install dependencies
