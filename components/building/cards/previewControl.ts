@@ -1,11 +1,13 @@
 import Vue						from 'vue';
 import { mapState }				from 'vuex';
 
+import CardColor				from './color.vue';
 import BuildingHeadersBig		from '@/components/building/headers/big.vue';
 import BuildingButtonTeal		from '@/components/building/buttons/teal.vue';
 
 export default Vue.extend({
 	components	: {
+		CardColor,
 		BuildingHeadersBig,
 		BuildingButtonTeal,
 	},
@@ -18,25 +20,12 @@ export default Vue.extend({
 		}),
 		computed_style	: function(): object {
 			return ({
-				backgroundColor	: `var(--color-${ this.color })`,
 				backgroundImage	: `url(${this.background_img_url})`,
 				...this.add_style,
 			});
 		},
 	},
 	props		: {
-		color	: {
-			type		: String,
-			required	: true,
-			validator	: function(color) {
-				return [
-					'grey',
-					'teal-bg',
-					'wine-bg',
-					'brown-bg',
-				].includes(color);
-			}
-		},
 		background_img_url	: {
 			type		: String,
 			required	: false,
@@ -50,6 +39,18 @@ export default Vue.extend({
 			type		: String,
 			required	: false,
 			default		: '/',
+		},
+		color	: {
+			type		: String,
+			required	: true,
+			validator	: function(color) {
+				return [
+					'grey',
+					'teal-bg',
+					'wine-bg',
+					'brown-bg',
+				].includes(color);
+			}
 		},
 	},
 });

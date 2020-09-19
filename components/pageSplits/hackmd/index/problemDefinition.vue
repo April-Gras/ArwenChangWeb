@@ -32,7 +32,7 @@
 						<BuildingBulletPoint :index="index + 1">{{ content }}</BuildingBulletPoint>
 					</div>
 					<img src="/images/Overview-DesignSprint.png" />
-					<div class="darkerText opa08">我們將使用者需求、商業目標、團隊資源等資訊整理成產品藍圖，幫助我們評估優先順序</div>
+					<div class="darkerText smallOpaCenterText">我們將使用者需求、商業目標、團隊資源等資訊整理成產品藍圖，幫助我們評估優先順序</div>
 				</div>
 			</template>
 		</BuildingSubsectionsNeutralTitle>
@@ -95,9 +95,4 @@
 	}
 
 	.bigGapMarge > div.bulletPointsOuterWrapper:last-child { margin-bottom: 0; }
-
-	.opa08 {
-		text-align: center;
-		opacity: 0.8;
-	}
 </style>

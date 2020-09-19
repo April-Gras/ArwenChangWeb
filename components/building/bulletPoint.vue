@@ -43,9 +43,12 @@
 
 	.index > span {
 		transform: translateY(1px);
+		color: var(--color-white);
 	}
 
 	.text {
-		line-height: 16px;
+		line-height: 20px;
 	}
+
+	.red .index { background-color: var(--color-red); }
 </style>

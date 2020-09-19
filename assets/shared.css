@@ -49,12 +49,19 @@ button {
 
 .preWrap { white-space: pre-wrap; }
 
-.gapMarge { margin-bottom: 8px; }
-.bigGapMarge { margin-bottom: 16px; }
-.smallTitleMarge { margin-bottom: 20px; }
-.titleMarge { margin-bottom: 32px; }
-.mediumMarge { margin-bottom: 40px; }
-.largeMarge { margin-bottom: 60px; }
+.gapMarge { margin-bottom: 8px!important; }
+.bigGapMarge { margin-bottom: 16px!important; }
+.smallTitleMarge { margin-bottom: 20px!important; }
+.titleMarge { margin-bottom: 32px!important; }
+.mediumMarge { margin-bottom: 40px!important; }
+.largeMarge { margin-bottom: 60px!important; }
+.hugeMarge { margin-bottom: 100px!important; }
 
 .neutralText { color: var(--color-neutral); }
 .darkerText { color: var(--color-darker); }
+
+.smallOpaCenterText {
+    text-align: center;
+    opacity: 0.8;
+    font-size: var(--font-size-small);
+}

@@ -39,4 +39,5 @@ export default {
 	modules: [ '@nuxtjs/axios' ],
 	axios: {},
 	build: { parallel: true },
+	router: { middleware: 'slash' }
 }

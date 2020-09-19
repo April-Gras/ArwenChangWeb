@@ -1,16 +1,19 @@
 <template>
-	<div class="doublePictureContainer">
+	<DoubleContent class="doublePictureContainer">
 		<img
 			v-for="(image_url, index) in url_set"
 			:key="index"
 			:src="image_url"
 		/>
-	</div>
+	</DoubleContent>
 </template>
 <script lang="ts">
 import Vue from 'vue'
 
+import DoubleContent from './doubleContent.vue';
+
 export default Vue.extend({
+	components: { DoubleContent },
 	props: {
 		url_set: {
 			type: Array,
@@ -23,27 +26,9 @@ export default Vue.extend({
 })
 </script>
 <style scoped>
-	.doublePictureContainer {
-		display: grid;
-		position: relative;
-		width: 100%;
-		grid-template-columns: 1fr;
-		grid-gap: 16px;
-	}
-
 	img {
 		width: 100%;
 		object-fit: contain;
 		object-position: center;
-	}
-</style>
-<style scoped>
-	@media screen and (min-width: 480px) {
-		.doublePictureContainer { grid-template-columns: 1fr 1fr; }
-	}
-</style>
-<style scoped>
-	@media screen and (min-width: 1000px) {
-		.doublePictureContainer { grid-gap: 32px; }
 	}
 </style>

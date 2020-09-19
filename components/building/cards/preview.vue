@@ -1,8 +1,9 @@
 <template>
-	<nuxt-link
+	<CardColor
 		class="buildingCardPreviewWrapper"
 		:style="computed_style"
 		:to="to"
+		:color="color"
 		@mouseenter.native="hovered = true"
 		@mouseleave.native="hovered = false"
 	>
@@ -24,7 +25,7 @@
 				v-if="hovered && SCREEN_X >= 1000"
 			>了解專案內容</BuildingButtonTeal>
 		</transition>
-	</nuxt-link>
+	</CardColor>
 </template>
 <script lang="ts" src="./previewControl.ts"></script>
 <style scoped>
