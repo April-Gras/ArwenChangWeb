@@ -38,6 +38,7 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 50%;
+		flex-shrink: 0;
 	}
 
 	.index > span {

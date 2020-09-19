@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	display: block;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -50,6 +50,11 @@ button {
 .preWrap { white-space: pre-wrap; }
 
 .gapMarge { margin-bottom: 8px; }
+.bigGapMarge { margin-bottom: 16px; }
+.smallTitleMarge { margin-bottom: 20px; }
 .titleMarge { margin-bottom: 32px; }
 .mediumMarge { margin-bottom: 40px; }
 .largeMarge { margin-bottom: 60px; }
+
+.neutralText { color: var(--color-neutral); }
+.darkerText { color: var(--color-darker); }
