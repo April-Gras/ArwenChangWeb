@@ -49,6 +49,7 @@ button {
 
 .preWrap { white-space: pre-wrap; }
 
+.miniMarge { margin-bottom: 4px!important; }
 .gapMarge { margin-bottom: 8px!important; }
 .bigGapMarge { margin-bottom: 16px!important; }
 .smallTitleMarge { margin-bottom: 20px!important; }
@@ -64,4 +65,13 @@ button {
     text-align: center;
     opacity: 0.8;
     font-size: var(--font-size-small);
+}
+
+section.pageTopContent {
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 0px!important;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
 }

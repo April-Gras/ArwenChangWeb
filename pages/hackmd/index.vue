@@ -1,6 +1,6 @@
 <template>
 	<div class="outerWrapper">
-		<PageHeader class="header" />
+		<PageHeader class="header largeMarge" />
 		<PageProjectContext class="pageWrapper" />
 		<PageBulletPoints class="makeNeutral largeMarge" />
 		<PageProblemDefinition class="pageWrapper mediumMarge" />

@@ -1,12 +1,12 @@
 <template>
-	<div class="makeGrey">
+	<div class="makeTealLight">
 		<BuildingSection class="pageWrapper pageTopContent">
 			<BuildingHeadersBigger class="titleMarge">
 				<span>HackMD</span>
 				<br/>
-				<span>Overview 重新設計</span>
+				<span>團隊協作留言功能</span>
 			</BuildingHeadersBigger>
-			<img src="/images/HackMD-Overview-MainPic.png">
+			<img src="/images/HackMD-Comment-MainPic.png">
 		</BuildingSection>
 	</div>
 </template>
