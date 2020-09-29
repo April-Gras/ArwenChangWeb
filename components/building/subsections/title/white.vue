@@ -20,9 +20,9 @@
 	})
 </script>
 <style scoped>
-	div >>> > .contentWrap,
-	div >>> > .titleWrap,
-	div >>> .titleWrap > span {
+	div.subsectionsIndexWrapper >>> .contentWrap,
+	div.subsectionsIndexWrapper >>> .titleWrap,
+	div.subsectionsIndexWrapper >>> .titleWrap > span {
 		color: var(--color-white);
 	}
 </style>

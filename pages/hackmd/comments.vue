@@ -4,6 +4,10 @@
 		<PageProjectContext class="hugeMarge pageWrapper" />
 		<PageBulletPoints class="makeTeal hugeMarge" />
 		<PageRefactor class="mediumMarge pageWrapper" />
+		<PageFinalProduct />
+		<BuildingSection class="pageWrapper mediumMarge">
+			<BuildingSubsectionsCardNavigation />
+		</BuildingSection>
 	</div>
 </template>
 <script lang="ts" src="./commentsControl.ts"></script>
