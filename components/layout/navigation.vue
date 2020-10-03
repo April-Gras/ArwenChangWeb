@@ -9,36 +9,31 @@
 			@click="inner_expand = !inner_expand"
 			v-if="in_screen_range"
 		>
-			<transition name="fade" mode="out-in">
-				<div
-					key="not_expanded"
-					class="icon"
-					v-if="!expand"
-				>a</div>
-				<div
-					key="expanded"
-					class="icon"
-					v-else
-				>b</div>
-			</transition>
+			<BuildingButtonsBurger :expanded="inner_expand" />
 		</div>
 		<div v-else class="navTable">
 			<nuxt-link to="/">作品</nuxt-link>
 			<nuxt-link to="/about/">關於</nuxt-link>
 			<a href="mailto:placeholder@placeholder.com">聯絡</a>
 		</div>
-		<transition name="fade">
+		<Transition name="fade">
 			<div
 				class="dropDown"
 				v-if="expand"
 			>
-				<div class="pageWrapper navigationHolder">
-					<BuildingHeadersBig>作品</BuildingHeadersBig>
-					<BuildingHeadersBig>聯絡</BuildingHeadersBig>
-					<BuildingHeadersBig>關於</BuildingHeadersBig>
+				<div class="pageWrapper navigationHolder" @click="inner_expand = false">
+					<NuxtLink to="/">
+						<BuildingHeadersBig>作品</BuildingHeadersBig>
+					</NuxtLink>
+					<NuxtLink to="/">
+						<BuildingHeadersBig>聯絡</BuildingHeadersBig>
+					</NuxtLink>
+					<NuxtLink to="/about/">
+						<BuildingHeadersBig>關於</BuildingHeadersBig>
+					</NuxtLink>
 				</div>
 			</div>
-		</transition>
+		</Transition>
 	</nav>
 </template>
 <script lang="ts" src="./navigationControl.ts"></script>
