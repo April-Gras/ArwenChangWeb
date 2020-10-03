@@ -51,4 +51,5 @@
 	}
 
 	.red .index { background-color: var(--color-red); }
+	.wineBright .index { background-color: var(--color-wine-bright); }
 </style>
