@@ -6,6 +6,7 @@ import PageBulletPoints from '@/components/pageSplits/superbcut/bulletPoints.vue
 import PageRefactor from '@/components/pageSplits/superbcut/refactor.vue';
 import PageOldVersion from '@/components/pageSplits/superbcut/oldVersion.vue';
 import PageNewVersion from '@/components/pageSplits/superbcut/newVersion.vue';
+import PageLearnedAndReflected from '@/components/pageSplits/superbcut/learnedAndReflected.vue';
 
 import BuildingSection from '@/components/building/section.vue';
 import BuildingSubsectionsCardNavigation from '@/components/building/subsections/cardNavigation.vue';
@@ -18,6 +19,7 @@ export default Vue.extend({
         PageRefactor,
         PageOldVersion,
         PageNewVersion,
+        PageLearnedAndReflected,
         BuildingSection,
         BuildingSubsectionsCardNavigation,
     }

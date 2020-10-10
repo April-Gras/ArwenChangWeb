@@ -4,7 +4,7 @@
             <template v-slot:title>新版</template>
             <template v-slot:content>
                 <div class="content">
-                    <img class="mediumMarge" src="/images/SuperbCut-NewDesign.png" />
+                    <img class="mediumMarge picture" src="/images/SuperbCut-NewDesign.png" />
                     <div class="bulletPointsWrapper">
                         <BuildingBulletPoint
                             v-for="(elem, index) in bullet_content"
@@ -51,4 +51,8 @@
 		gap: 16px;
 		grid-template-columns: 1fr;
 	}
+
+    .picture {
+        width: 100%;
+    }
 </style>

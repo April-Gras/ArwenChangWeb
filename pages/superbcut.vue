@@ -6,6 +6,7 @@
 		<PageRefactor class="pageWrapper mediumMarge"/>
 		<PageOldVersion class="makeGrey largeMarge"/>
 		<PageNewVersion class="pageWrapper largeMarge"/>
+		<PageLearnedAndReflected class="pageWrapper largeMarge"/>
 		<BuildingSection class="pageWrapper mediumMarge">
 			<BuildingSubsectionsCardNavigation />
 		</BuildingSection>
