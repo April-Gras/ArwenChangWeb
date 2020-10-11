@@ -1,7 +1,7 @@
 <template>
 	<div class="learnedAndReflected">
 		<BuildingSubsectionsWineTitle>
-			<template v-slot:title>vouav</template>
+			<template v-slot:title>反思與學習</template>
 			<template v-slot:content>
 				<div class="content">
 					<BuildingBulletPoint
