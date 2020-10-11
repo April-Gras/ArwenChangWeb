@@ -1,6 +1,11 @@
 <template>
 	<div class="outerWrap">
 		<PageHeader class="largeMarge" />
+		<PageProjectContext class="largeMarge pageWrapper" />
+		<PagePreview class="largeMarge"/>
+		<BuildingSection class="pageWrapper mediumMarge">
+			<BuildingSubsectionsCardNavigation />
+		</BuildingSection>
 	</div>
 </template>
 <script lang="ts" src="./youchuanControl.ts"></script>
