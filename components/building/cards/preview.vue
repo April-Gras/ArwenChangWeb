@@ -35,6 +35,7 @@
 		display: block;
 		position: relative;
 		background-repeat: no-repeat;
+		border-radius: 4px;
 	}
 
 	.date {
