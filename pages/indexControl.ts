@@ -4,14 +4,14 @@ import { mapState } from 'vuex';
 import BuildingSection from '@/components/building/section.vue';
 import BuildingButtonTeal from '@/components/building/buttons/teal.vue';
 import BuildingCardsPreview from '@/components/building/cards/preview.vue';
-import BuildingHeadersBigger from '@/components/building/headers/bigger.vue';
+import BuildingHeadersBiggest from '@/components/building/headers/biggest.vue';
 
 export default Vue.extend({
 	components: {
 		BuildingSection,
 		BuildingButtonTeal,
 		BuildingCardsPreview,
-		BuildingHeadersBigger,
+		BuildingHeadersBiggest,
 	},
 	computed: {
 		...mapState({
