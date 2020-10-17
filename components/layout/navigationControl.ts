@@ -1,3 +1,9 @@
+interface links {
+	link : string,
+	text: string,
+	class: object,
+}
+
 import Vue from 'vue';
 import { mapState } from 'vuex';
 
@@ -17,8 +23,25 @@ export default Vue.extend({
 		});
 	},
 	computed: {
-		...mapState({ SCREEN_X: (state: any) => state.resize.screen_x }),
-		in_screen_range: function (): boolean { return this.SCREEN_X < 1000; },
-		expand: function (): boolean { return this.inner_expand && this.in_screen_range; },
+		...mapState({
+			SCREEN_X: (state: any) => state.resize.screen_x
+		}),
+		in_screen_range(): boolean {
+			return this.SCREEN_X < 1000;
+		},
+		expand(): boolean {
+			return this.inner_expand && this.in_screen_range;
+		},
+		links(): links[] {
+			return [
+				{ link : "/", text : "作品"},
+				{ link : "/about/", text : "關於"}
+			].map(e => {
+				return {
+					...e,
+					class : { active : this.$route.path === e.link }
+				}
+			})
+		}
 	}
 });
