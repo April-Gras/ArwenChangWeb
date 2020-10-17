@@ -57,7 +57,11 @@
 		grid-template: 1fr;
 	}
 
-	.card { padding: 32px; }
+	.card {
+		padding: 32px;
+		border-radius: 4px;
+	}
+
 	.head { font-weight: 600; }
 	.upperTitle { text-align: center; }
 
