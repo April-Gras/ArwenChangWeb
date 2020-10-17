@@ -1,9 +1,11 @@
 <template>
 	<nav class="navigatorWrapper" :class="{ expand }">
-		<BuildingHeadersRegular
-			class="bold"
-			v-if="!expand"
-		>ARWEN CHANG</BuildingHeadersRegular>
+		<NuxtLink to="/">
+			<BuildingHeadersRegular
+				class="bold"
+				v-if="!expand"
+			>ARWEN CHANG</BuildingHeadersRegular>
+		</NuxtLink>
 		<div
 			class="burger"
 			@click="inner_expand = !inner_expand"
@@ -12,8 +14,12 @@
 			<BuildingButtonsBurger :expanded="inner_expand" />
 		</div>
 		<div v-else class="navTable">
-			<nuxt-link to="/">作品</nuxt-link>
-			<nuxt-link to="/about/">關於</nuxt-link>
+			<NuxtLink
+				v-for="config in links"
+				:key="config.link"
+				:to="config.link"
+				:class="config.class"
+			>{{ config.text }}</NuxtLink>
 			<a href="mailto:placeholder@placeholder.com">聯絡</a>
 		</div>
 		<Transition name="fade">
@@ -25,9 +31,9 @@
 					<NuxtLink to="/">
 						<BuildingHeadersBig>作品</BuildingHeadersBig>
 					</NuxtLink>
-					<NuxtLink to="/">
+					<a href="mailto:placeholder@placeholder.com">
 						<BuildingHeadersBig>聯絡</BuildingHeadersBig>
-					</NuxtLink>
+					</a>
 					<NuxtLink to="/about/">
 						<BuildingHeadersBig>關於</BuildingHeadersBig>
 					</NuxtLink>

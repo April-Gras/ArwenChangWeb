@@ -12,5 +12,6 @@
 	.bigger {
 		font-weight: 700;
 		font-size: var(--font-size-title-bigger);
+		line-height: 40px;
 	}
 </style>

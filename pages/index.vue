@@ -2,11 +2,11 @@
 	<div class="pageWrapper">
 		<BuildingSection class="introSection">
 			<div class="textWrap">
-				<BuildingHeadersBigger class="mainTitle">
+				<BuildingHeadersBiggest class="mainTitle">
 					<span>我是 Arwen，</span>
 					<br class="desktopOnly"/>
 					<span>一名產品設計師。</span>
-				</BuildingHeadersBigger>
+				</BuildingHeadersBiggest>
 				<div class="subtitle">
 					<span>我喜歡提供讓人感到愉悅的設計方案，</span>
 					<br class="desktopOnly"/>

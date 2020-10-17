@@ -10,9 +10,9 @@
 		<div class="date">
 			<slot name="date"></slot>
 		</div>
-		<BuildingHeadersBig class="title preWrap">
+		<BuildingHeadersBigger class="title preWrap">
 			<slot name="title"></slot>
-		</BuildingHeadersBig>
+		</BuildingHeadersBigger>
 		<div class="subtitle">
 			<slot name="subtitle"></slot>
 		</div>
@@ -42,6 +42,7 @@
 		font-weight: 600;
 		margin-bottom: 8px;
 		color: var(--color-secondary);
+		line-height: 26px;
 	}
 
 	.title {
@@ -57,9 +58,17 @@
 		align-items: center;
 		width: calc(100% - 80px);
 	}
+
+	.btnWrapper {
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
 </style>
 <style scoped>
 	@media screen and (min-width: 600px) {
-		.buildingCardPreviewWrapper { height: 580px; }
+		.buildingCardPreviewWrapper {
+			max-height: 580px;
+			height: 580px;
+			box-sizing: border-box;
+		}
 	}
 </style>
