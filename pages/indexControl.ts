@@ -30,7 +30,7 @@ export default Vue.extend({
 		shared_bottom_styles: function (): object {
 			if (this.SCREEN_X <= 380 || this.SCREEN_X >= 600) {
 				return ({
-					backgroundSize: 'calc(100% - 74px)',
+					backgroundSize: '100%',
 					backgroundPosition: 'bottom center',
 				});
 			}
@@ -49,9 +49,9 @@ export default Vue.extend({
 					background_img_url: '/images/hackmdpreview-bg.png',
 					to: '/hackmd/',
 					add_style: {
-						backgroundPositionX: this.SCREEN_X < 1000 ? 'right' : '113px',
+						backgroundPositionX: this.SCREEN_X < 1000 ? 'right' : '0px',
 						backgroundPositionY: 'bottom',
-						backgroundSize: this.SCREEN_X < 600 ? '232px' : this.SCREEN_X < 1000 ? 'calc(100% - 56px)' : '340px',
+						backgroundSize: this.SCREEN_X < 600 ? '232px' : this.SCREEN_X < 1000 ? 'calc(100% - 56px)' : '453px',
 					},
 				}
 			}, {

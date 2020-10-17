@@ -1,9 +1,11 @@
 <template>
 	<nav class="navigatorWrapper" :class="{ expand }">
-		<BuildingHeadersRegular
-			class="bold"
-			v-if="!expand"
-		>ARWEN CHANG</BuildingHeadersRegular>
+		<NuxtLink to="/">
+			<BuildingHeadersRegular
+				class="bold"
+				v-if="!expand"
+			>ARWEN CHANG</BuildingHeadersRegular>
+		</NuxtLink>
 		<div
 			class="burger"
 			@click="inner_expand = !inner_expand"
