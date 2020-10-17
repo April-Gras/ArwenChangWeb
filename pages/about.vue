@@ -106,6 +106,7 @@
 		display: grid;
 		grid-gap: 60px;
 		grid-template-columns: 1fr;
+		padding: 80px 0px;
 	}
 
 	.pillHolder {
