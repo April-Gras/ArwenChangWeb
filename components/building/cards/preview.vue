@@ -42,6 +42,7 @@
 		font-weight: 600;
 		margin-bottom: 8px;
 		color: var(--color-secondary);
+		line-height: 26px;
 	}
 
 	.title {
@@ -64,6 +65,10 @@
 </style>
 <style scoped>
 	@media screen and (min-width: 600px) {
-		.buildingCardPreviewWrapper { height: 580px; }
+		.buildingCardPreviewWrapper {
+			max-height: 580px;
+			height: 580px;
+			box-sizing: border-box;
+		}
 	}
 </style>
