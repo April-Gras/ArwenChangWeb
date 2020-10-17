@@ -1,6 +1,6 @@
 <template>
 	<div class="pageWrapper">
-		<buildingSection class="introSection">
+		<div class="introSection">
 			<div class="textWrap">
 				<BuildingHeadersBigger class="title">Arwen Chang</BuildingHeadersBigger>
 				<div>我是張雅雯，一個多方嘗試的產品設計師，擁有設計、使用者研究、網頁切版方面的經驗。</div>
@@ -9,8 +9,10 @@
 					<span>能夠讓產品幫助並影響人們的生活，是我工作的成就感來源之一。</span>
 				</div>
 			</div>
-			<div class="pictureWrap"></div>
-		</buildingSection>
+			<div class="pictureWrap">
+				<img src="/images/arwenProfile.png" />
+			</div>
+		</div>
 		<BuildingSection class="resumeSectionWrap">
 			<BuildingSubsectionsTealTitle>
 				<template v-slot:title>工作經驗</template>
@@ -104,6 +106,7 @@
 		display: grid;
 		grid-gap: 60px;
 		grid-template-columns: 1fr;
+		padding: 80px 0px;
 	}
 
 	.pillHolder {
@@ -133,6 +136,13 @@
 		margin: 0px auto;
 	}
 
+	.pictureWrap > img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center;
+	}
+
 	.introSection { padding-bottom: 0px; }
 </style>
 <style scoped>
@@ -148,6 +158,7 @@
 			width: 450px;
 			height: 438px;
 			margin: 0px 35px 0px 0px;
+			position: relative;
 		}
 
 		.textWrap {
