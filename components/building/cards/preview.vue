@@ -10,9 +10,9 @@
 		<div class="date">
 			<slot name="date"></slot>
 		</div>
-		<BuildingHeadersBig class="title preWrap">
+		<BuildingHeadersBigger class="title preWrap">
 			<slot name="title"></slot>
-		</BuildingHeadersBig>
+		</BuildingHeadersBigger>
 		<div class="subtitle">
 			<slot name="subtitle"></slot>
 		</div>

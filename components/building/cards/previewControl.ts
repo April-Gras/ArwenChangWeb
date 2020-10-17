@@ -2,13 +2,13 @@ import Vue						from 'vue';
 import { mapState }				from 'vuex';
 
 import CardColor				from './color.vue';
-import BuildingHeadersBig		from '@/components/building/headers/big.vue';
+import BuildingHeadersBigger	from '@/components/building/headers/bigger.vue';
 import BuildingButtonTeal		from '@/components/building/buttons/teal.vue';
 
 export default Vue.extend({
 	components	: {
 		CardColor,
-		BuildingHeadersBig,
+		BuildingHeadersBigger,
 		BuildingButtonTeal,
 	},
 	data		: function(): object {
