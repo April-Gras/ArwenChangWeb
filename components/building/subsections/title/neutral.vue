@@ -20,7 +20,7 @@
 	})
 </script>
 <style scoped>
-	div >>> > .titleWrap, div >>> > .titleWrap > span {
+	div >>> .titleWrap, div >>> .titleWrap > span {
 		color: var(--color-neutral);
 	}
 </style>
