@@ -15,12 +15,16 @@ export default {
 		}, {
 			hid: 'description',
 			name: 'description',
-			content: process.env.npm_package_description || ''
+			content: 'Arwen Chang professional portfolio'
+		}, {
+			hid: 'title',
+			name: 'title',
+			content: 'Arwen Chang'
 		}],
 		link: [{
 			rel: 'icon',
 			type: 'image/x-icon',
-			href: '/favicon.ico'
+			href: 'images/favicon.ico'
 		}]
 	},
 	css: [

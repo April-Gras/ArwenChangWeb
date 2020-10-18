@@ -96,6 +96,8 @@
 </template>
 <script lang="ts" src="./aboutControl.ts"></script>
 <style scoped>
+	.pageWrapper { padding-top: 60px; }
+
 	.tripleContentWrap {
 		display: grid;
 		grid-gap: 40px;

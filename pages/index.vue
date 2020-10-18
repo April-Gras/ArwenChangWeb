@@ -12,7 +12,11 @@
 					<br class="desktopOnly"/>
 					<span>並解決使用者的問題。</span>
 				</div>
-				<BuildingButtonTeal>下載履歷</BuildingButtonTeal>
+				<a href="/images/Resume.pdf" target="_blank">
+					<BuildingButtonTeal>
+						<span class="btnText">下載履歷</span>
+					</BuildingButtonTeal>
+				</a>
 			</div>
 			<div class="additionalPicture"></div>
 		</BuildingSection>

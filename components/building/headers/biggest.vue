@@ -12,5 +12,6 @@
 	.biggest {
 		font-weight: bold;
 		font-size: var(--font-size-title-biggest);
+		line-height: 52px;
 	}
 </style>

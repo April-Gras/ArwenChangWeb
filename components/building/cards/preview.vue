@@ -23,7 +23,9 @@
 			<BuildingButtonTeal
 				class="btnWrapper"
 				v-if="hovered && SCREEN_X >= 1000"
-			>了解專案內容</BuildingButtonTeal>
+			>
+				<span class="btnText">了解專案內容</span>
+			</BuildingButtonTeal>
 		</transition>
 	</CardColor>
 </template>
