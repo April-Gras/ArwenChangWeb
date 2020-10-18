@@ -20,7 +20,7 @@
 				:to="config.link"
 				:class="config.class"
 			>{{ config.text }}</NuxtLink>
-			<a href="mailto:placeholder@placeholder.com">聯絡</a>
+			<a href="mailto:arwenchang818@gmail.com">聯絡</a>
 		</div>
 		<Transition name="fade">
 			<div
@@ -31,7 +31,7 @@
 					<NuxtLink to="/">
 						<BuildingHeadersBig>作品</BuildingHeadersBig>
 					</NuxtLink>
-					<a href="mailto:placeholder@placeholder.com">
+					<a href="mailto:arwenchang818@gmail.com">
 						<BuildingHeadersBig>聯絡</BuildingHeadersBig>
 					</a>
 					<NuxtLink to="/about/">

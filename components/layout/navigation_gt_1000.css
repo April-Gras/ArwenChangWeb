@@ -4,10 +4,15 @@
 		height: 72px;
 	}
 
+	.navTable {
+		display: grid;
+		gap: 40px;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 	.navTable > a {
 		font-weight: 600;
 		font-size: var(--font-size-regular);
-		margin-right: 40px;
 		color: var(--color-darkest);
 		opacity: 0.6;
 		transition: 0.15s;
