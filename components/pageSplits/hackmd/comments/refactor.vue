@@ -12,7 +12,7 @@
 					<div class="smallOpaCenterText mediumMarge">根據紙上的流程，用既有的元件快速 mock-up 成初步的草稿，以此跟團隊成員討論</div>
 					<BuildingHeadersSmall class="miniMarge">Prototype</BuildingHeadersSmall>
 					<div class="bigGapMarge">為了能幫助大家了解實際操作起來的感受，我透過 Figma 製作了高擬真可操作原形（high-fidelity prototyping）以此做動態效果上的確認。</div>
-					<img class="bigGapMarge" src="/images/CommentPrototype-GIF.png" />
+					<img class="bigGapMarge" src="/images/CommentPrototype.gif" />
 					<div class="smallOpaCenterText">Prototype 主要是用來確認流程、互動方式，所以設計稿並沒有做得很精準</div>
 				</div>
 			</template>
