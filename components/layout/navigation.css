@@ -48,3 +48,7 @@
 
 .navigationHolder > * { margin-bottom: 40px; }
 .navigationHolder > *:last-child { margin-bottom: 0px; }
+
+.bold {
+	transform: translateY(2px);
+}
