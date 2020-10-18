@@ -59,7 +59,7 @@
 
 	.card {
 		padding: 32px;
-		border-radius: 4px;
+		border-radius: 6px;
 	}
 
 	.head { font-weight: 600; }
