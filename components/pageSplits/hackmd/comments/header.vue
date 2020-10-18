@@ -31,6 +31,6 @@
 	object-position: center;
 	object-fit: contain;
 	margin: 0px auto;
-	filter: drop-shadow(var(--shadow-picture));
+	transform: translateY(45px);
 }
 </style>
