@@ -19,13 +19,13 @@
 </script>
 <style scoped>
 	.burgerWrapper {
-		width: 24px;
-		height: 24px;
+		width: 20px;
+		height: 20px;
 		position: relative;
 	}
 
 	.bar {
-		width: 24px;
+		width: 20px;
 		height: 4px;
 		border-radius: 1px;
 		background-color: var(--color-darkest);
@@ -37,17 +37,17 @@
 
 	.top { top: 0px; }
 	.mid { top: calc(50% - 2px); }
-	.bot { bottom: 0px;; }
+	.bot { bottom: 0px; }
 
 	.expanded .top {
 		transform-origin: center left;
-		transform: rotate(45deg) scale(1.15);
+		transform: rotate(45deg) scale(1.1);
 		opacity: 1;
 	}
 
 	.expanded .bot {
 		transform-origin: center left;
-		transform: rotate(-45deg) scale(1.15);
+		transform: rotate(-45deg) scale(1.1);
 		opacity: 1;
 	}
 
