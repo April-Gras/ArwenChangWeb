@@ -43,7 +43,7 @@
 	.pageWrapper {
 		display: grid;
 		gap: 32px;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 
 	.left, .right {
@@ -53,5 +53,15 @@
 		overflow: hidden;
 		grid-template-columns: 1fr;
 		align-content: flex-start;
+	}
+
+	.left > img, .right > img {
+		width: 100%;
+		object-fit: contain;
+		object-position: center;
+	}
+
+	@media screen and (min-width: 1000px) {
+		.pageWrapper { grid-template-columns: 1fr 1fr; }
 	}
 </style>
