@@ -20,6 +20,14 @@ export default {
 			hid: 'title',
 			name: 'title',
 			content: 'Arwen Chang'
+		}, {
+			hid: 'og:title',
+			property: 'og:title',
+			content: 'Arwen Chang'
+		}, {
+			hid: 'og:description',
+			property: 'og:description',
+			content: 'Arwen Chang professional portfolio'
 		}],
 		link: [{
 			rel: 'icon',

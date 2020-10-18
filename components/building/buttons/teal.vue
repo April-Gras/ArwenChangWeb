@@ -20,7 +20,8 @@
         font-weight: 600;
         font-size: 20px;
         line-height: 100%;
-        transition: 0.3s;
+        transition: .15s;
+        transform: translateY(2px);
     }
 
     .regular:hover {
