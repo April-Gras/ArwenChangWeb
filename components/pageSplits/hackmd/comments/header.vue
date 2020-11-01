@@ -25,12 +25,13 @@
 </script>
 <style scoped>
 .pageTopContent > img {
+	display: block;
 	width: 100%;
-	max-width: 787px;
 	position: relative;
 	object-position: center;
 	object-fit: contain;
 	margin: 0px auto;
 	transform: translateY(45px);
+	filter: drop-shadow(var(--shadow-picture));
 }
 </style>

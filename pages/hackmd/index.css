@@ -3,3 +3,7 @@
 	background-color: var(--color-neutral);
 	padding: 60px 0px;
 }
+
+.outerWrapper {
+	display: block;
+}

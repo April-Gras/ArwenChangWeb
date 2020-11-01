@@ -18,11 +18,5 @@
 		transition: 0.15s;
 	}
 
-	.navTable > a:hover, .navTable > a.active {
-		color: var(--color-teal);
-		transition: 0.1s;
-		opacity: 1;
-	}
-
 	.navTable > a:last-child { margin-right: 0px; }
 }

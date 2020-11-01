@@ -15,7 +15,7 @@
 		</div>
 		<div v-else class="navTable">
 			<NuxtLink
-				v-for="config in links"
+				v-for="config in desktopLinks"
 				:key="config.link"
 				:to="config.link"
 				:class="config.class"
@@ -28,13 +28,19 @@
 				v-if="expand"
 			>
 				<div class="pageWrapper navigationHolder" @click="inner_expand = false">
-					<NuxtLink to="/">
+					<NuxtLink
+						to="/"
+						:class="getLinkClass('/')"
+					>
 						<BuildingHeadersBig>作品</BuildingHeadersBig>
 					</NuxtLink>
 					<a href="mailto:arwenchang818@gmail.com">
 						<BuildingHeadersBig>聯絡</BuildingHeadersBig>
 					</a>
-					<NuxtLink to="/about/">
+					<NuxtLink
+						to="/about/"
+						:class="getLinkClass('/about/')"
+					>
 						<BuildingHeadersBig>關於</BuildingHeadersBig>
 					</NuxtLink>
 				</div>

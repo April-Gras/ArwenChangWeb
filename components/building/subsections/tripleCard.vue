@@ -67,6 +67,7 @@
 	}
 
 	.pillOuterWrap > img {
+		display: block;
 		width: 100%;
 		object-fit: contain;
 		object-position: center;
@@ -95,6 +96,9 @@
 	@media screen and (min-width: 1000px) {
 		.trippleCardWrapper { width: 100%; }
 
-		.slider { grid-gap: 30px; }
+		.slider {
+			grid-gap: 30px;
+			grid-template-columns: repeat(3, 1fr);
+		}
 	}
 </style>

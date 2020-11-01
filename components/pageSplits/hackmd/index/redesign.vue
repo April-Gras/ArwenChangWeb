@@ -22,7 +22,7 @@
 					<BuildingHeadersSmall class="darkerText gapMarge">Prototype</BuildingHeadersSmall>
 					<div class="darkerText bigGapMarge">在梳理過操作流程，且決定大致的設計方向後，我產出一版 prototype 讓團隊成員試用獲取回饋。</div>
 					<div class="darkerText bigGapMarge">過去我常會利用紙上草稿來跟團隊成員溝通，這次試著透過簡單的 prototype 來討論，因為能夠實際操作、元件比例也接近最後完稿的狀態，成員可以更好想像完成後的樣子，避免焦點發散。</div>
-					<img class="bigGapMarge" src="/images/OverviewPrototype.gif" />
+					<img src="/images/OverviewPrototype.gif" />
 				</div>
 				<div>
 					<BuildingHeadersSmall class="darkerText gapMarge">易用性測試（Usability test）</BuildingHeadersSmall>
@@ -64,8 +64,8 @@
 <style scoped>
 	img {
 		width: 100%;
-		position: relative;
 		object-fit: contain;
 		object-position: center;
+		display: block;
 	}
 </style>

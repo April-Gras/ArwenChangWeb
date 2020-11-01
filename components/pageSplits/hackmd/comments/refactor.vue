@@ -22,7 +22,7 @@
 			<template v-slot:content>
 				<div class="content">
 					<BuildingHeadersSmall class="miniMarge">驗收標準（Acceptance Criteria）</BuildingHeadersSmall>
-					<div class="bigGapMerge">
+					<div class="bigGapMarge">
 						<span>在開發功能複雜的功能時，為了能避免溝通失誤，也減少佔用人腦記憶太多資訊，我會在完成設計稿後馬上撰寫此功能的驗收條件。</span>
 						<b>盡可能使用開發者好理解的描述方式，列出精準的需求。</b>
 					</div>
@@ -66,6 +66,7 @@
 </script>
 <style scoped>
 img {
+	display: block;
 	width: 100%;
 	overflow: hidden;
 	object-fit: contain;

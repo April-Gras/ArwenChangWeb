@@ -26,11 +26,11 @@
 <style scoped>
 .pageTopContent > img {
 	width: 100%;
-	max-width: 787px;
 	position: relative;
 	object-position: center;
 	object-fit: contain;
 	margin: 0px auto;
+	display: block;
 	filter: drop-shadow(var(--shadow-picture));
 }
 

@@ -11,12 +11,12 @@
 			<img class="regularImage bigGapMarge" src="/images/CommentDiagrams.png" />
 			<div class="smallOpaCenterText">除了 prototype 以外，我也做了靜態的介面稿，讓工程師了解每一個狀態的介面</div>
 		</div>
-		<div class="makeGrey largeMarge">
-			<div class="deviceWrapper pageWrapper">
-				<img class="regularImage" src="/images/macbookgrey_front 1.png" />
-				<img class="regularImage" src="/images/iphone8spacegrey_portrait 1.png" />
-			</div>
-		</div>
+		<BuildingSection class="makeGrey largeMarge nobar">
+				<div class="deviceWrapper pageWrapper">
+					<img class="regularImage" src="/images/macbookgrey_front 1.png" />
+					<img class="regularImage" src="/images/iphone8spacegrey_portrait 1.png" />
+				</div>
+		</BuildingSection>
 		<div class="pageWrapper">
 			<BuildingSubsectionsTealTitle>
 				<template v-slot:title>反思與學習</template>
@@ -38,12 +38,14 @@
 <script lang="ts">
 	import Vue from 'vue'
 
+	import BuildingSection from "@/components/building/section.vue"
 	import BuildingHeadersBiggest from '@/components/building/headers/biggest.vue';
 	import BuildingBulletPoint from '@/components/building/bulletPoint.vue';
 	import BuildingSubsectionsTealTitle from '@/components/building/subsections/title/teal.vue';
 
 	export default Vue.extend({
 		components: {
+			BuildingSection,
 			BuildingHeadersBiggest,
 			BuildingBulletPoint,
 			BuildingSubsectionsTealTitle,
@@ -73,6 +75,7 @@
 	}
 
 	.commentDesign > img {
+		display: block;
 		max-height: 800px;
 		object-fit: contain;
 		object-position: right;
@@ -89,6 +92,7 @@
 		width: 100%;
 		object-position: center;
 		object-fit: contain;
+		display: block;
 	}
 
 	.deviceWrapper {
@@ -102,6 +106,6 @@
 	.content {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-gap: 8px;
+		grid-gap: 16px;
 	}
 </style>

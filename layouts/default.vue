@@ -1,6 +1,7 @@
 <template>
 	<div class="layoutWrapper">
-		<navigation/>
+		<ScrollToTop />
+		<Navigation />
 		<Nuxt/>
 		<div class="footer">© Arwen Chang 2020</div>
 	</div>
@@ -10,10 +11,14 @@
 	import Vue from 'vue';
 	import { mapMutations } from 'vuex';
 
-	import navigation from '@/components/layout/navigation.vue';
+	import Navigation from '@/components/layout/navigation.vue';
+	import ScrollToTop from "@/components/layout/scrollToTop.vue";
 
 	export default Vue.extend({
-		components: { navigation },
+		components: {
+			Navigation,
+			ScrollToTop
+		},
 		data: function() {
 			return ({
 				resizeEventHolder : null as any,

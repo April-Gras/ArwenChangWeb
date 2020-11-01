@@ -15,7 +15,7 @@
 		position: relative;
 	}
 
-	.section:before {
+	.section:before:not(.nobar) {
 		position: absolute;
 		content: '';
 		left: calc(var(--grid-side-pad) * -1);

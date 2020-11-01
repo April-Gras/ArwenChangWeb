@@ -30,5 +30,6 @@ export default Vue.extend({
 		width: 100%;
 		object-fit: contain;
 		object-position: center;
+		display: block;
 	}
 </style>

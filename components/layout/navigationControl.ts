@@ -1,7 +1,11 @@
-interface links {
-	link : string,
+interface Links {
+	link: string,
 	text: string,
 	class: object,
+}
+
+interface LinkClass {
+	active: boolean,
 }
 
 import Vue from 'vue';
@@ -32,16 +36,23 @@ export default Vue.extend({
 		expand(): boolean {
 			return this.inner_expand && this.in_screen_range;
 		},
-		links(): links[] {
+		desktopLinks(): Links[] {
 			return [
-				{ link : "/", text : "作品"},
-				{ link : "/about/", text : "關於"}
+				{ link: "/", text: "作品" },
+				{ link: "/about/", text: "關於" }
 			].map(e => {
 				return {
 					...e,
-					class : { active : this.$route.path === e.link }
+					class: this.getLinkClass(e.link)
 				}
 			})
-		}
+		},
+	},
+	methods: {
+		getLinkClass(link: string): LinkClass {
+			return {
+				active: this.$route.path === link
+			}
+		},
 	}
 });

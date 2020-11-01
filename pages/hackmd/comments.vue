@@ -3,7 +3,7 @@
 		<PageHeader class="largeMarge" />
 		<PageProjectContext class="hugeMarge pageWrapper" />
 		<PageBulletPoints class="makeTeal hugeMarge" />
-		<PageRefactor class="mediumMarge pageWrapper" />
+		<PageRefactor class="largeMarge pageWrapper" />
 		<PageFinalProduct />
 		<BuildingSection class="pageWrapper mediumMarge">
 			<BuildingSubsectionsCardNavigation />

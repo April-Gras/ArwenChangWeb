@@ -11,7 +11,12 @@
 					<BuildingHeadersSmall class="darkerText gapMarge">人物誌 (Persona)</BuildingHeadersSmall>
 					<div class="darkerText">整理過去的使用者訪談紀錄，轉化成主要的三個人物誌。它可以幫助團隊在思考解決方案時，以同理心去設想使用者真實的需求，提供最適合的解法。</div>
 				</div>
-				<BuildingSubsectionsTrippleCard class="mediumMarge" :config="sliding_cards_config"/>
+				<div class="trippleCardWrap">
+					<BuildingSubsectionsTrippleCard
+						class="mediumMarge"
+						:config="sliding_cards_config"
+					/>
+				</div>
 				<div class="bigGapMarge">
 					<BuildingHeadersSmall class="darkerText gapMarge">產品資訊架構（Information Architecture）</BuildingHeadersSmall>
 					<div class="darkerText">這次也必須支援新增的功能：讓使用者能夠切換自己的工作空間、團隊空間、公開頁面。為了讓使用者能夠操作流暢，在著手進行視覺設計改版前，重新定義目前資訊架構的層級關聯，讓功能擺放更合理。</div>
@@ -31,7 +36,7 @@
 					>
 						<BuildingBulletPoint :index="index + 1">{{ content }}</BuildingBulletPoint>
 					</div>
-					<img src="/images/Overview-DesignSprint.png" />
+					<img src="/images/Overview-DesignSprint.png" class="bigGapMarge" />
 					<div class="darkerText smallOpaCenterText">我們將使用者需求、商業目標、團隊資源等資訊整理成產品藍圖，幫助我們評估優先順序</div>
 				</div>
 			</template>
@@ -85,9 +90,11 @@
 </script>
 <style scoped>
 	img {
+		display: block;
 		width: 100%;
 		object-position: center;
 		object-fit: contain;
+		display: block;
 	}
 
 	.bulletPointWrapper >>> .index > span {

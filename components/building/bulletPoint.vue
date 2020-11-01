@@ -39,6 +39,7 @@
 		align-items: center;
 		border-radius: 50%;
 		flex-shrink: 0;
+		margin-top: 2px;
 	}
 
 	.index > span {
@@ -47,7 +48,7 @@
 	}
 
 	.text {
-		line-height: 20px;
+		line-height: 24px;
 	}
 
 	.red .index { background-color: var(--color-red); }

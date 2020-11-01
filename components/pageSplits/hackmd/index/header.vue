@@ -25,8 +25,8 @@
 </script>
 <style scoped>
 .pageTopContent > img {
+	display: block;
 	width: 100%;
-	max-width: 787px;
 	position: relative;
 	object-position: center;
 	object-fit: contain;

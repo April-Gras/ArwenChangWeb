@@ -42,6 +42,8 @@
 	})
 </script>
 <style scoped>
-	.bulletPoint { margin-bottom: 20px; }
-	.bulletPoints > .bulletPoint:last-child { margin-bottom: 0px }
+	.bulletPoints {
+		display: grid;
+		gap: 16px;
+	}
 </style>

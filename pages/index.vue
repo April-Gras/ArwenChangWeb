@@ -12,13 +12,17 @@
 					<br class="desktopOnly"/>
 					<span>並解決使用者的問題。</span>
 				</div>
-				<a href="/images/ArwenChang-Resume.pdf" target="_blank">
-					<BuildingButtonTeal>
-						<span class="btnText">下載履歷</span>
-					</BuildingButtonTeal>
-				</a>
+				<div class="resumeButton">
+					<a href="/images/ArwenChang-Resume.pdf" target="_blank">
+						<BuildingButtonTeal>
+							<span class="btnText">下載履歷</span>
+						</BuildingButtonTeal>
+					</a>
+				</div>
 			</div>
-			<div class="additionalPicture"></div>
+			<div class="additionalPicture">
+				<img src="/images/Home-pic_1.png"/>
+			</div>
 		</BuildingSection>
 		<BuildingSection class="gridSection">
 			<BuildingCardsPreview
@@ -81,9 +85,13 @@
 
 	.additionalPicture {
 		display: block;
-		background-color: #EBEBEB;
 		height: 375px;
 		width: 100%;
+		overflow: hidden;
+	}
+
+	.resumeButton {
+		display: inline;
 	}
 
 	.gridSection {
@@ -93,8 +101,33 @@
 
 	.subtitle {
 		text-align: left;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 130%;
 	}
 
 	.button { margin: 0px; }
+
+	.resumeButton {
+		display: block;
+		margin-right: auto;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.resumeButton > a {
+		display: block;
+	}
+
+	.additionalPicture > img {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		object-fit: contain;
+		object-position: center;
+		display: block;
+	}
 }
 </style>

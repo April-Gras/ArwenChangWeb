@@ -57,6 +57,7 @@
 
 	.left > img, .right > img {
 		width: 100%;
+		display: block;
 		object-fit: contain;
 		object-position: center;
 	}

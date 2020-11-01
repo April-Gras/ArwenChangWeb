@@ -64,6 +64,7 @@
 </script>
 <style scoped>
 	img {
+		display: block;
 		width: 100%;
 		object-position: center;
 		object-fit: contain;
@@ -72,7 +73,7 @@
 
 	.bulletPointsOuterWrapper {
 		display: grid;
-		grid-gap: 8px;
+		grid-gap: 16px;
 	}
 
 	.pageWrapper {
