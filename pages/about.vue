@@ -26,7 +26,7 @@
 							</template>
 							<template v-slot:text>
 								<span>身兼產品設計師、使用者經驗研究員及專案管理</span>
-								<span>除了整體產品的設計語言，也制定了團隊中設計文件的規範、完整流程</span>
+								<span>優化並開發全球月活躍用戶 50 萬的開發者協作工具</span>
 							</template>
 						</BuildingSubsectionsTripleContent>
 						<BuildingSubsectionsTripleContent>
@@ -36,8 +36,8 @@
 								<span>2016 Nov. - 2018 Jun.</span>
 							</template>
 							<template v-slot:text>
-								<span>透過與專案經理、工程師的合作，設計多元類型的形象網站及活動頁</span>
-								<span>從提案、設計到網頁切版都可以獨立作業完成</span>
+								<span>與專案經理、工程師合作，設計超過 50 件企業形象網站及活動頁</span>
+								<span>從提案、設計到網頁切版(含 RWD)都可以獨立作業完成</span>
 							</template>
 						</BuildingSubsectionsTripleContent>
 						<BuildingSubsectionsTripleContent>
