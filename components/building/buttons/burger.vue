@@ -32,7 +32,6 @@
 		transition: 0.15s;
 		position: absolute;
 		left: 0px;
-		opacity: 0.6;
 	}
 
 	.top { top: 0px; }
@@ -42,13 +41,13 @@
 	.expanded .top {
 		transform-origin: center left;
 		transform: rotate(45deg) scale(1.1);
-		opacity: 0.6;
+		background-color: #86878B;
 	}
 
 	.expanded .bot {
 		transform-origin: center left;
 		transform: rotate(-45deg) scale(1.1);
-		opacity: 0.6;
+		background-color: #86878B;
 	}
 
 	.expanded .mid {

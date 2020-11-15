@@ -51,7 +51,7 @@ export default Vue.extend({
 					add_style: {
 						backgroundPositionX: this.SCREEN_X < 1000 ? 'right' : '0px',
 						backgroundPositionY: 'bottom',
-						backgroundSize: this.SCREEN_X < 600 ? '232px' : this.SCREEN_X < 1000 ? 'calc(100% - 56px)' : '453px',
+						backgroundSize: this.SCREEN_X < 375 ? '232px' : this.SCREEN_X < 450 ? 'calc(100% - 50px)' : this.SCREEN_X < 600 ? 'calc(100% - 150px)' : this.SCREEN_X < 1000 ? 'calc(100% - 56px)' : '453px',
 					},
 				}
 			}, {

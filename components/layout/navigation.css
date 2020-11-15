@@ -1,4 +1,5 @@
 .navigatorWrapper {
+	transition: 0.15s;
 	position: sticky;
 	top: 0px;
 	padding: var(--grid-gap) 14px;
@@ -61,4 +62,20 @@
 	color: var(--color-teal);
 	transition: 0.1s;
 	opacity: 1;
+}
+
+.bgTeal {
+	background-color: var(--color-teal-bg) !important;
+}
+
+.bgWine {
+	background-color: var(--color-wine-bg) !important;
+}
+
+.bgBrown {
+	background-color: var(--color-brown-bg) !important;
+}
+
+.bgGrey {
+	background-color: var(--color-grey) !important;
 }

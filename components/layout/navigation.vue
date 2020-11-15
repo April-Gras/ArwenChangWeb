@@ -1,5 +1,5 @@
 <template>
-	<nav class="navigatorWrapper" :class="{ expand }">
+	<nav class="navigatorWrapper" :class="{ expand, ...bg_classes }">
 		<NuxtLink to="/">
 			<BuildingHeadersRegular
 				class="bold"

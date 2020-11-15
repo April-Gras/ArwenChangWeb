@@ -13,8 +13,10 @@
 		<BuildingSubsectionsTealTitle class="mediumMarge">
 			<template v-slot:title>專案背景</template>
 			<template v-slot:content>
-				<div>既有的留言功能只能對一段文字段落留言，不少使用者在協作過程中，時常有針對特定字串做討論的需求。</div>
-				<div>為了提供使用者更好的留言體驗，修改重點著重在能夠選取特定字串做留言討論，並有基礎的權限控管、設定留言狀態（此留言已被解決、隱藏留言）。</div>
+				<div class="content">
+					<div class="text">既有的留言功能只能對一段文字段落留言，不少使用者在協作過程中，時常有針對特定字串做討論的需求。</div>
+					<div class="text">為了提供使用者更好的留言體驗，修改重點著重在能夠選取特定字串做留言討論，並有基礎的權限控管、設定留言狀態（此留言已被解決、隱藏留言）。</div>
+				</div>
 			</template>
 		</BuildingSubsectionsTealTitle>
 		<BuildingSubsectionsTealTitle>
@@ -62,6 +64,16 @@
 
 	.pills > .pillElement { margin-bottom: 8px; }
 	.pills > .pillElement:last-child { margin-bottom: 0px; }
+
+	.content {
+		display: grid;
+		grid-template: 1fr;
+		gap: 4px;
+	}
+
+	.content > .text {
+		line-height: 24px;
+	}
 </style>
 <style scoped>
 	@media screen and (min-width: 1000px) {

@@ -30,6 +30,14 @@ export default Vue.extend({
 		...mapState({
 			SCREEN_X: (state: any) => state.resize.screen_x
 		}),
+		bg_classes(): Record<string, boolean> {
+			return {
+				bgGrey : this.$route.path === "/hackmd/",
+				bgWine : this.$route.path === "/superbcut/",
+				bgTeal : this.$route.path === "/hackmd/comments/",
+				bgBrown : this.$route.path === "/youchuan/",
+			}
+		},
 		in_screen_range(): boolean {
 			return this.SCREEN_X < 1000;
 		},

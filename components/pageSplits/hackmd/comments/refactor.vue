@@ -79,4 +79,8 @@ img {
 	grid-gap: 8px;
 	width: 100%;
 }
+
+.content {
+	line-height: 24px;
+}
 </style>

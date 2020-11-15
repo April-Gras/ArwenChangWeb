@@ -28,7 +28,7 @@
 					<div class="darkerText">我們從各種管道獲取使用者的聲音：Facebook、Twitter、客服信箱、訪談等。在資源有限的情況下，我們需要考量使用者需求、開發可行性、商業目標，找出最適合團隊目前目標的開發順序。因此集中整理並分類使用者的回饋，對於決定產品開發方向會有顯著的幫助。</div>
 				</div>
 				<div class="bigGapMarge">
-					<BuildingHeadersSmall class="darkerText smallTitleMarge">Design sprint</BuildingHeadersSmall>
+					<BuildingHeadersSmall class="darkerText gapMarge">Design sprint</BuildingHeadersSmall>
 					<div
 						class="bulletPointsOuterWrapper bigGapMarge"
 						v-for="(content, index) in bullet_points_content"

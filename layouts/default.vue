@@ -59,6 +59,7 @@
 		text-align: center;
 		font-size: var(--font-size-small);
 		color: var(--color-darkest);
+		border-top: 1px solid #D5E0E3;
 	}
 
 	.layoutWrapper { overflow: hidden; }

@@ -1,31 +1,31 @@
 :root {
-	--color-darkest			: #35373E;
-	--color-darker			: #515357;
-	--color-dark			: #696C70;
-	--color-secondary		: #81868A;
+	--color-darkest: #35373E;
+	--color-darker: #515357;
+	--color-dark: #696C70;
+	--color-secondary: #81868A;
 
-	--color-teal			: #065471;
-	--color-teal-light		: #D5E0E3;
-	--color-teal-bright		: #40BAD5;
-	--color-teal-bg			: #D6F3FA;
-	--color-teal-80			: rgba(6,84,113, 0.8);
+	--color-teal: #065471;
+	--color-teal-light: #D5E0E3;
+	--color-teal-bright: #40BAD5;
+	--color-teal-bg: #D6F3FA;
+	--color-teal-80: rgba(6,84,113, 0.8);
 
-	--color-brown			: #712D06;
-	--color-brown-light		: #E3E0D5;
-	--color-brown-bright	: #EF9225;
-	--color-brown-bg		: #FFF3BB;
+	--color-brown: #712D06;
+	--color-brown-light: #E3E0D5;
+	--color-brown-bright: #EF9225;
+	--color-brown-bg: #FFF3BB;
 
-	--color-wine			: #9E183E;
-	--color-wine-80			: rgba(158,24,62, 0.8);
-	--color-wine-light		: #E3D5D8;
-	--color-wine-bright		: #FF5F8F;
-	--color-wine-bg			: #FFEBEB;
+	--color-wine: #9E183E;
+	--color-wine-80: rgba(158,24,62, 0.8);
+	--color-wine-light: #E3D5D8;
+	--color-wine-bright: #FF5F8F;
+	--color-wine-bg: #FFEBEB;
 
-	--color-neutral			: #5C7A84;
-	--color-main-one-light	: #D5E0E3;
+	--color-neutral: #5C7A84;
+	--color-main-one-light: #D5E0E3;
 
-	--color-white			: #FFFFFF;
-	--color-grey			: #EDEDED;
-	--color-black			: #000000;
-	--color-red				: #FE2E00;
+	--color-white: #FFFFFF;
+	--color-grey: #EDEDED;
+	--color-black: #000000;
+	--color-red: #FE2E00;
 };

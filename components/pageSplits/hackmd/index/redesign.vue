@@ -68,4 +68,8 @@
 		object-position: center;
 		display: block;
 	}
+
+	.pageRedisignWrapper {
+		line-height: 24px;
+	}
 </style>

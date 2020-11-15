@@ -3,12 +3,10 @@
 .fade-enter, .fade-leave-to { opacity: 0; }
 
 .fade-up-down-enter, .fade-up-down-leave-to {
-	transform: translateY(32px);
 	opacity: 0;
 }
 
 .layout-enter-active, .layout-leave-active { transition: 0.1s; }
 .layout-enter, .layout-leave-to {
-	transform: translateY(32px);
 	opacity: 0;
 }

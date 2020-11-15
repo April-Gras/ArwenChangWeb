@@ -49,6 +49,10 @@
 <style scoped>
 	.outerPillWrapper {
 		display: grid;
-		gap: 8px;
+		gap: 16px;
+	}
+
+	.outerPillWrapper > div {
+		line-height: 24px;
 	}
 </style>

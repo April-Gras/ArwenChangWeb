@@ -55,5 +55,6 @@
 
 	.picture {
 		width: 100%;
+		display: block;
 	}
 </style>
