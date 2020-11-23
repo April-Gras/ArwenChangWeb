@@ -11,18 +11,12 @@
 			</BuildingPill>
 		</div>
 		<BuildingSubsectionsTealTitle class="mediumMarge">
-			<template v-slot:title>專案背景</template>
-			<template v-slot:content>
-				<div class="content">
-					<div class="text">既有的留言功能只能對一段文字段落留言，不少使用者在協作過程中，時常有針對特定字串做討論的需求。</div>
-					<div class="text">為了提供使用者更好的留言體驗，修改重點著重在能夠選取特定字串做留言討論，並有基礎的權限控管、設定留言狀態（此留言已被解決、隱藏留言）。</div>
-				</div>
-			</template>
-		</BuildingSubsectionsTealTitle>
-		<BuildingSubsectionsTealTitle>
 			<template v-slot:title>問題及目標</template>
 			<template v-slot:content>
-				<div>我們的目標是透過優化過去的留言功能，讓使用者能更直覺地基於文件內容互動、討論。</div>
+				<div class="content">
+					<div class="text">為了提高使用者的筆記貢獻度，嘗試了解使用者在團隊協作的流程中，有哪些溝通的痛點。</div>
+					<div class="text">過去沒有有系統地統整團隊協作所碰到的問題，我試著透過使用者研究發現亮點，提出適合的解決方案，協助團隊決定逐步開發或優化產品的方向和順序。</div>
+				</div>
 			</template>
 		</BuildingSubsectionsTealTitle>
 	</div>
@@ -45,10 +39,10 @@
 					text: '產品設計師。與 PO、 3 名工程師合作',
 				}, {
 					title: '負責項目',
-					text: '設計完稿、專案管理',
+					text: '使用者研究、設計完稿、專案管理',
 				}, {
 					title: '專案期間',
-					text: '2020 設計規劃 1 個月、開發 3 個月',
+					text: '2019 九 - 十月：定義問題\n2020 一 - 二月：設計規劃',
 				}]
 			},
 		}
