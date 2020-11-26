@@ -3,7 +3,7 @@
 		<PageHeader class="largeMarge" />
 		<PageProjectContext class="pageWrapper largeMarge"/>
 		<PageBulletPoints class="makeWine largeMarge"/>
-		<PageRefactor class="pageWrapper mediumMarge"/>
+		<PageRefactor class="pageWrapper largeMarge"/>
 		<PageOldVersion class="makeGrey largeMarge"/>
 		<PageNewVersion class="pageWrapper largeMarge"/>
 		<PageLearnedAndReflected class="pageWrapper largeMarge"/>

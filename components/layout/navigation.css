@@ -64,18 +64,18 @@
 	opacity: 1;
 }
 
-.bgTeal {
+.bgTeal:not(.expand) {
 	background-color: var(--color-teal-bg) !important;
 }
 
-.bgWine {
+.bgWine:not(.expand) {
 	background-color: var(--color-wine-bg) !important;
 }
 
-.bgBrown {
+.bgBrown:not(.expand) {
 	background-color: var(--color-brown-bg) !important;
 }
 
-.bgGrey {
+.bgGrey:not(.expand) {
 	background-color: var(--color-grey) !important;
 }

@@ -1,6 +1,6 @@
 <template>
 	<div class="refactorWrapper">
-		<BuildingSubsectionsWineTitle class="mediumMarge">
+		<BuildingSubsectionsWineTitle>
 			<template v-slot:title>重新設計</template>
 			<template v-slot:content>
 				<div class="content">
@@ -16,21 +16,11 @@
 					</div>
 					<img class="bigGapMarge" src="/images/SuperbCut-Issues.png">
 					<div class="smallOpaCenterText mediumMarge">將不同流程中的問題分類，用截圖、文字描述來紀錄</div>
+					<BuildingHeadersSmall class="gapMarge">框線圖 (Wireframe)</BuildingHeadersSmall>
+					<img class="bigGapMarge" src="/images/SuperbCut-Wireframe.png" />
+					<div class="smallOpaCenterText mediumMarge">美髮師的習慣大多以手機瀏覽網站為主，所以優先考量手機版的設計</div>
 					<BuildingHeadersSmall class="gapMarge">設計規範</BuildingHeadersSmall>
 					<img src="/images/SuperbCut-GuideLine.png" />
-				</div>
-			</template>
-		</BuildingSubsectionsWineTitle>
-		<BuildingSubsectionsWineTitle>
-			<template v-slot:title></template>
-			<template v-slot:content>
-				<div class="content">
-					<BuildingHeadersSmall class="miniMarge"></BuildingHeadersSmall>
-					<div class="bigGapMerge">
-						<span></span>
-						<b></b>
-					</div>
-					<div class="smallTitleMarge"></div>
 				</div>
 			</template>
 		</BuildingSubsectionsWineTitle>

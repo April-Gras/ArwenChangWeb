@@ -18,7 +18,7 @@
 			<template v-slot:title>持續更迭</template>
 			<template v-slot:content>
 				<div class="darkerText bigGapMarge">至今我們也在不斷收集使用者的回饋，持續改良設計，讓操作體驗更好用。</div>
-				<img src="/images/Overview-RightNow.png" />
+				<img class="picture" src="/images/Overview-RightNow.png" />
 			</template>
 		</BuildingSubsectionsTitleNeutral>
 	</div>
@@ -54,5 +54,13 @@
 
 	.outerPillWrapper > div {
 		line-height: 24px;
+	}
+
+	.picture {
+		display: block;
+		width: 100%;
+		object-fit: contain;
+		display: block;
+		object-position: center;
 	}
 </style>
