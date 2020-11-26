@@ -10,7 +10,7 @@
 				<div class="pillText preWrap">{{ elem.text }}</div>
 			</BuildingPill>
 		</div>
-		<BuildingSubsectionsNeutralTitle class="mediumMarge">
+		<BuildingSubsectionsNeutralTitle>
 			<template v-slot:title>問題及目標</template>
 			<template v-slot:content>
 				<span>目前的使用者們有不同類型的痛點，我們想知道：</span>

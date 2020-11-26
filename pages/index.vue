@@ -35,17 +35,18 @@
 </template>
 <script lang="ts" src="./indexControl.ts"></script>
 <style scoped>
+	.textWrap {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
 	.mainTitle {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
 		margin-bottom: 16px;
-	}
-
-	.subtitle {
-		text-align: center;
-		margin-bottom: 40px;
 	}
 
 	.button { margin: 0px auto; }
@@ -115,6 +116,15 @@
 		object-fit: contain;
 		object-position: center;
 		display: block;
+	}
+
+	.introSection:before {
+		content: "";
+		position: absolute;
+		bottom: 0px;
+		right: calc(var(--grid-side-pad) * -1);
+		width: 100vw;
+		border-bottom: 1px solid var(--color-grey);
 	}
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
 	<div class="outerWrapper">
 		<PageHeader class="largeMarge" />
-		<PageProjectContext class="hugeMarge pageWrapper" />
-		<PageBulletPoints class="makeTeal hugeMarge" />
+		<PageProjectContext class="largeMarge pageWrapper" />
+		<PageBulletPoints class="makeTeal largeMarge" />
 		<PageRefactor class="largeMarge pageWrapper" />
 		<PageFinalProduct />
 		<BuildingSection class="pageWrapper mediumMarge">

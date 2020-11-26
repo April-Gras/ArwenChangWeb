@@ -10,7 +10,7 @@
 					<img class="bigGapMarge" src="/images/Comment-UserJourneyMaps.png" />
 					<div class="smallOpaCenterText mediumMarge">每個 Persona 會有不同的行為和痛點，上述為開發團隊主管的顧客旅程地圖</div>
 					<BuildingHeadersSmall class="miniMarge">收斂問題並擬定問卷</BuildingHeadersSmall>
-					<div class="gapMarge">整理歸納出團隊使用者共同的痛點後，透過發送問卷給目標客群，以量化的方式統計大部分用戶是否有類似的痛點。兩週內總共蒐集了 189 份有效問卷（填寫問卷就可參加抽獎的誘因非常有效 😆）。</div>
+					<div class="gapMarge">整理歸納出團隊使用者共同的痛點後，透過發送問卷給目標客群，以量化的方式統計大部分用戶是否有類似的痛點。兩週內總共蒐集了 189 份有效問卷（填寫問卷就可參加抽獎的誘因非常有效 😆 ）。</div>
 					<div class="bigGapMarge">我們分析了問卷的統計結果，發現使用者在團隊協作的情境上，最容易碰到的問題是：</div>
 					<img class="mediumMarge" src="/images/Comment-Survey.png" />
 					<BuildingHeadersSmall class="miniMarge">訂定目標</BuildingHeadersSmall>

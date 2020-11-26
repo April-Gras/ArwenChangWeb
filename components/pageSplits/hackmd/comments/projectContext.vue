@@ -10,7 +10,7 @@
 				<div class="pillText preWrap">{{ elem.text }}</div>
 			</BuildingPill>
 		</div>
-		<BuildingSubsectionsTealTitle class="mediumMarge">
+		<BuildingSubsectionsTealTitle>
 			<template v-slot:title>問題及目標</template>
 			<template v-slot:content>
 				<div class="content">
