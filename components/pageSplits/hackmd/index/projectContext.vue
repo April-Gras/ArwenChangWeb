@@ -6,7 +6,7 @@
 				:key="index"
 				class="pillElement"
 			>
-				<div class="pillTitle">{{ elem.title }}</div>
+				<div class="pillTitle gapMarge">{{ elem.title }}</div>
 				<div class="pillText preWrap">{{ elem.text }}</div>
 			</BuildingPill>
 		</div>
