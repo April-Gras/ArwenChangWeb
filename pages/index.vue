@@ -2,16 +2,11 @@
 	<div class="pageWrapper">
 		<BuildingSection class="introSection">
 			<div class="textWrap">
-				<BuildingHeadersBiggest class="mainTitle">
+				<BuildingHeadersBiggest class="mainTitle mediumMarge">
 					<span>我是 Arwen，</span>
 					<br class="desktopOnly"/>
 					<span>一名產品設計師。</span>
 				</BuildingHeadersBiggest>
-				<div class="subtitle">
-					<span>我喜歡提供讓人感到愉悅的設計方案，</span>
-					<br class="desktopOnly"/>
-					<span>並解決使用者的問題。</span>
-				</div>
 				<div class="resumeButton">
 					<a href="/images/ArwenChang-Resume.pdf" target="_blank">
 						<BuildingButtonTeal>
@@ -97,14 +92,6 @@
 	.gridSection {
 		padding-top: 120px;
 		padding-bottom: 120px;
-	}
-
-	.subtitle {
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		line-height: 130%;
 	}
 
 	.button { margin: 0px; }
