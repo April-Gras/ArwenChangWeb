@@ -1,6 +1,16 @@
 <template>
 	<div class="pageReflexionsWrapper">
-		<BuildingSubsectionsTitleNeutral class="largeMarge">
+		<BuildingSubsectionsTitleNeutral class="mediumMarge">
+			<template v-slot:title>持續更迭</template>
+			<template v-slot:content>
+				<div class="darkerText bigGapMarge">MVP 版本上線後，我們在使用者容易發現的地方附上回饋表單的選項，積極聽取他們試用後的第一手回饋，並追蹤多少人不滿意換回舊版。透過 NPS (淨推薦值) 的方式量化使用者滿意程度。</div>
+				<div class="darkerText bigGapMarge">再下一次的 sprint 裡，我們推出第二版上線並在一個月內全面切換為新版介面。然而優化的旅程至今仍然在進行中。</div>
+				<img class="picture mediumMarge" src="/images/HackMD-Feedback_1.png" />
+				<div class="darkerText bigGapMarge">至今仍在持續改良設計，提供使用者更好的操作體驗。</div>
+				<img class="picture" src="/images/Overview-RightNow.png" />
+			</template>
+		</BuildingSubsectionsTitleNeutral>
+		<BuildingSubsectionsTitleNeutral>
 			<template v-slot:title>反思與學習</template>
 			<template v-slot:content>
 				<div class="outerPillWrapper">
@@ -12,13 +22,6 @@
 						<span v-html="html"></span>
 					</BuildingBulletPoint>
 				</div>
-			</template>
-		</BuildingSubsectionsTitleNeutral>
-		<BuildingSubsectionsTitleNeutral>
-			<template v-slot:title>持續更迭</template>
-			<template v-slot:content>
-				<div class="darkerText bigGapMarge">至今我們也在不斷收集使用者的回饋，持續改良設計，讓操作體驗更好用。</div>
-				<img class="picture" src="/images/Overview-RightNow.png" />
 			</template>
 		</BuildingSubsectionsTitleNeutral>
 	</div>
