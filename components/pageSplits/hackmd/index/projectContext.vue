@@ -10,12 +10,16 @@
 				<div class="pillText preWrap">{{ elem.text }}</div>
 			</BuildingPill>
 		</div>
-		<BuildingSubsectionsNeutralTitle>
-			<template v-slot:title>問題及目標</template>
-			<template v-slot:content>
-				<span>目前的使用者們有不同類型的痛點，我們想知道：</span>
-				<b>該如何決定優先解決哪些問題？用什麼方式解決最符合使用者的需要？</b>
-				<span>我們希望能有效運用已知的資料，有系統地規劃接下來開發的方向。</span>
+		<BuildingSubsectionsNeutralTitle class="largeMarge">
+			<template #title>專案背景</template>
+			<template #content>
+				<span>HackMD 是一個基於 Markdown 語法的即時協作知識庫。自 2016 提供服務以來，使用者持續成長，在 2020 年每月月活躍用戶有 45 萬名，使用者撰寫了超過 260 萬份筆記。用戶遍及台灣、日本、美國及法國、德國等地區。</span>
+			</template>
+		</BuildingSubsectionsNeutralTitle>
+				<BuildingSubsectionsNeutralTitle>
+			<template #title>挑戰</template>
+			<template #content>
+				<span>進一步改善使用體驗，幫助使用者能夠更快更精準地找到文件，並與使用者的工作流程整合得更好。</span>
 			</template>
 		</BuildingSubsectionsNeutralTitle>
 	</div>

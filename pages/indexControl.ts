@@ -42,7 +42,7 @@ export default Vue.extend({
 		preview_cards_config: function (): object {
 			return [{
 				date: 2019,
-				title: 'HackMD\nOverview 重新設計',
+				title: 'HackMD 改版\n強化使用者體驗',
 				subtitle: '搜集使用者的回饋以優化介面，提升產品的易用性',
 				props: {
 					color: 'grey',
@@ -57,7 +57,7 @@ export default Vue.extend({
 			}, {
 				date: 2020,
 				title: 'HackMD\n團隊協作留言功能',
-				subtitle: '打造一個即時、操作簡單的文件留言功能',
+				subtitle: '優化既有的筆記留言功能，讓使用者能更有效率地基於文件內容做溝通討論',
 				props: {
 					color: 'teal-bg',
 					background_img_url: '/images/hackmd-bg.png',

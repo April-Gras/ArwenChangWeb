@@ -10,12 +10,19 @@
 				<div class="pillText preWrap">{{ elem.text }}</div>
 			</BuildingPill>
 		</div>
-		<BuildingSubsectionsTealTitle>
-			<template v-slot:title>問題及目標</template>
-			<template v-slot:content>
+		<BuildingSubsectionsTealTitle class="titleMarge">
+			<template #title>專案背景</template>
+			<template #content>
 				<div class="content">
-					<div class="text">為了提高使用者的筆記貢獻度，嘗試了解使用者在團隊協作的流程中，有哪些溝通的痛點。</div>
-					<div class="text">過去沒有有系統地統整團隊協作所碰到的問題，我試著透過使用者研究發現亮點，提出適合的解決方案，協助團隊決定逐步開發或優化產品的方向和順序。</div>
+					<div class="text">HackMD 是一個基於 Markdown 語法的即時協作知識庫。自 2016 提供服務以來，使用者持續成長，在 2020 年每月月活躍用戶有 45 萬名，使用者撰寫了超過 260 萬份筆記。用戶遍及台灣、日本、美國及法國、德國等地區。</div>
+				</div>
+			</template>
+		</BuildingSubsectionsTealTitle>
+		<BuildingSubsectionsTealTitle>
+			<template #title>挑戰</template>
+			<template #content>
+				<div class="content">
+					<div class="text">優化既有的筆記留言功能，讓使用者能更有效率地基於文件內容做溝通討論。</div>
 				</div>
 			</template>
 		</BuildingSubsectionsTealTitle>
@@ -39,10 +46,10 @@
 					text: '產品設計師。與 PO、 3 名工程師合作',
 				}, {
 					title: '負責項目',
-					text: '使用者研究、設計完稿、專案管理',
+					text: 'UI 及 UX、專案管理',
 				}, {
 					title: '專案期間',
-					text: '2019 九 - 十月：定義問題\n2020 一 - 二月：設計規劃',
+					text: '2020 年 一 - 二月',
 				}]
 			},
 		}

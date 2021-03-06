@@ -2,8 +2,8 @@
 	<div class="oldVersionWrapper">
 		<div class="pageWrapper">
 			<BuildingSubsectionsWineTitle>
-				<template v-slot:title>舊版</template>
-				<template v-slot:content>
+				<template #title>舊版</template>
+				<template #content>
 					<div class="content">
 						<img class="mediumMarge picture" src="/images/SuperbCut-OldDesign.png" />
 						<div class="bulletPointsWrapper">

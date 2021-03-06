@@ -11,15 +11,15 @@
 			</BuildingPill>
 		</div>
 		<BuildingSubsectionsWineTitle class="mediumMarge">
-			<template v-slot:title>專案背景</template>
-			<template v-slot:content>
+			<template #title>專案背景</template>
+			<template #content>
 				<div>好剪才職能訓練所是為了希望精進自己技術的新進美髮師、實習師，提供精進技術的機會。透過進修學習提升服務品質，改善美髮業獲利，進一步提升美髮產業。</div>
 				<div>這個網站提供美髮師一個線上課程學習、購買線下課程講座的平台。</div>
 			</template>
 		</BuildingSubsectionsWineTitle>
 		<BuildingSubsectionsWineTitle>
-			<template v-slot:title>問題及目標</template>
-			<template v-slot:content>
+			<template #title>問題及目標</template>
+			<template #content>
 				<div>除了改善既有的購買課程流程以外，業主希望也能夠讓更多同業認識好剪才這個品牌。</div>
 			</template>
 		</BuildingSubsectionsWineTitle>

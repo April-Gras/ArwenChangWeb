@@ -1,9 +1,9 @@
 <template>
 	<SubsectionsTitleTemplate>
-		<template v-slot:title>
+		<template #title>
 			<slot name="title"></slot>
 		</template>
-		<template v-slot:content>
+		<template #content>
 			<slot name="content"></slot>
 		</template>
 	</SubsectionsTitleTemplate>
@@ -24,5 +24,10 @@
 	div.subsectionsIndexWrapper >>> .titleWrap,
 	div.subsectionsIndexWrapper >>> .titleWrap > span {
 		color: var(--color-white);
+	}
+
+	div.subsectionsIndexWrapper >>> .titleWrap,
+	div.subsectionsIndexWrapper >>> .titleWrap > span {
+		font-size: var(--font-size-title-big);
 	}
 </style>

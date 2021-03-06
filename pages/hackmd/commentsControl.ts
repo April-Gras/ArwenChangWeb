@@ -3,6 +3,7 @@ import Vue from 'vue';
 import PageHeader from '@/components/pageSplits/hackmd/comments/header.vue';
 import PageProjectContext from '@/components/pageSplits/hackmd/comments/projectContext.vue';
 import PageBulletPoints from '@/components/pageSplits/hackmd/comments/bulletPoints.vue';
+import PageOldVersion from "@/components/pageSplits/hackmd/comments/oldVersion.vue"
 import PageRefactor from '@/components/pageSplits/hackmd/comments/refactor.vue';
 import PageFinalProduct from '@/components/pageSplits/hackmd/comments/finalProduct.vue';
 
@@ -13,6 +14,7 @@ export default Vue.extend({
     components: {
         PageHeader,
         PageBulletPoints,
+        PageOldVersion,
         PageProjectContext,
         PageRefactor,
         PageFinalProduct,

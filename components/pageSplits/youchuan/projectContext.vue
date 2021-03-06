@@ -11,15 +11,15 @@
 			</BuildingPill>
 		</div>
 		<BuildingSubsectionsBrownTitle class="mediumMarge">
-			<template v-slot:title>專案背景</template>
-			<template v-slot:content>
+			<template #title>專案背景</template>
+			<template #content>
 				<div>依照業主的需求，設計一款企業網站。現有的臺灣機械貿易商的網頁都比較老舊，業主希望能夠參考日本或歐美的貿易網站，用較為明亮、現代的設計呈現企業形象。</div>
 				<div>業主希望能夠容易讓消費者用電子郵件聯繫到他，另外也依照紙本的機械型錄，清楚呈現不同機具的規格。</div>
 			</template>
 		</BuildingSubsectionsBrownTitle>
 		<BuildingSubsectionsBrownTitle>
-			<template v-slot:title>視覺語言</template>
-			<template v-slot:content>
+			<template #title>視覺語言</template>
+			<template #content>
 				<div class="content">
 					<img class="picture" src="/images/YouChuan-GuideLine.png"/>
 				</div>

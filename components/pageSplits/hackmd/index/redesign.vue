@@ -1,23 +1,31 @@
 <template>
 	<div class="pageRedisignWrapper">
 		<BuildingSubsectionsNeutralTitle>
-			<template v-slot:title>重新設計</template>
-			<template v-slot:content>
+			<template #title>設計規劃</template>
+			<template #content>
 				<div class="bigGapMarge">
-					<BuildingHeadersSmall class="darkerText gapMarge">框線圖 (Wireframe)</BuildingHeadersSmall>
-					<div class="darkerText bigGapMarge">經過討論，我們決定優先解決使用者者 Overview 上難以找到筆記的問題。</div>
-					<div class="darkerText">我參考產品架構圖，以及 Design sprint 中各個成員所提出的構想，找出最適合使用者能快速切換空間、並找到筆記的解決方案。繪製了許多草稿後，我們決定採用有側邊欄的版本。</div>
+					<BuildingHeadersSmall class="darkerText gapMarge">產品資訊架構（Information Architecture）</BuildingHeadersSmall>
+					<div class="darkerText">為了產品功能未來的擴展性：新增的團隊空間及公開頁、整合其它工具等，在著手進行視覺設計改版前，重新定義目前資訊架構的層級關聯，讓功能擺放更合理。</div>
 				</div>
-				<BuildingSubsectionsDoublePicture
-					class="doublePictureContainer mediumMarge"
-					:url_set="picture_url_set"
-				></BuildingSubsectionsDoublePicture>
+				<div class="darkerText bigGapMarge">
+					<span>若需要疊加新的功能時</span>
+					<b>，能有邏輯地加在合理的類別中，降低未來維護成本。</b>
+				</div>
+				<img class="mediumMarge" src="/images/Overview-IA.png"/>
 				<div class="mediumMarge">
 					<BuildingHeadersSmall class="darkerText gapMarge">重新定義功能區塊</BuildingHeadersSmall>
 					<div class="darkerText bigGapMarge">我們發現頁面上有太多項目，過去開發新功能都是直接找個空位塞，沒有考量到使用者找尋時是否流暢。</div>
 					<div class="darkerText bigGapMarge">重新定義不同區塊的目標，除了能夠讓每個按鈕分門別類，更重要的是讓使用者順利找到需要的功能。未來即將推出的各種新功能，也能找到合理的位置擺放。</div>
 					<img src="/images/DefineBlock.png" class="defineImage" />
 				</div>
+				<div class="bigGapMarge">
+					<BuildingHeadersSmall class="darkerText gapMarge">框線圖 (Wireframe)</BuildingHeadersSmall>
+					<div class="darkerText bigGapMarge">我參考產品架構圖，以及 Design sprint 中各個成員所提出的構想，找出最適合使用者能快速切換空間、並找到筆記的解決方案。繪製了許多草稿後，我們決定採用有側邊欄的版本。</div>
+				</div>
+				<BuildingSubsectionsDoublePicture
+					class="doublePictureContainer mediumMarge"
+					:url_set="picture_url_set"
+				></BuildingSubsectionsDoublePicture>
 				<div class="mediumMarge">
 					<BuildingHeadersSmall class="darkerText gapMarge">Prototype</BuildingHeadersSmall>
 					<div class="darkerText bigGapMarge">在梳理過操作流程，且決定大致的設計方向後，我產出一版 prototype 讓團隊成員試用獲取回饋。</div>

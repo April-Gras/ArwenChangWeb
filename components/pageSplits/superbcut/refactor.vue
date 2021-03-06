@@ -1,8 +1,8 @@
 <template>
 	<div class="refactorWrapper">
 		<BuildingSubsectionsWineTitle>
-			<template v-slot:title>重新設計</template>
-			<template v-slot:content>
+			<template #title>重新設計</template>
+			<template #content>
 				<div class="content">
 					<BuildingHeadersSmall class="gapMarge">產品資訊架構（Information Architecture）</BuildingHeadersSmall>
 					<div class="gapMarge">現行的設計在導覽列有太多選項，其中有很多重複出現的連結。</div>

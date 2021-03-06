@@ -2,8 +2,8 @@
 	<div class="bulletPointsWrapper">
 		<div class="pageWrapper">
 			<BuildingSubsectionsWhiteTitle>
-				<template v-slot:title>專案重點</template>
-				<template v-slot:content>
+				<template #title>專案重點</template>
+				<template #content>
 					<div class="bulletPoints">
 						<BuildingBulletPoint
 							class="bulletPoint wineBright"

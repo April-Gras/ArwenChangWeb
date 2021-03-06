@@ -4,7 +4,7 @@
 			<BuildingHeadersBigger class="titleMarge">
 				<span>HackMD</span>
 				<br/>
-				<span>Overview 重新設計</span>
+				<span>強化使用者體驗</span>
 			</BuildingHeadersBigger>
 			<img src="/images/HackMD-Overview-MainPic.png">
 		</BuildingSection>

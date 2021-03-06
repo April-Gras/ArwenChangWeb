@@ -35,7 +35,7 @@
 					path: '/hackmd/',
 				}, {
 					color: 'teal-bg',
-					text: 'HackMD\n團隊協作留言功能',
+					text: 'HackMD\n留言功能優化',
 					path: '/hackmd/comments/',
 				}, {
 					color: 'wine-bg',

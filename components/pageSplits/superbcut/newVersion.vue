@@ -1,8 +1,8 @@
 <template>
     <div class="newVersionWrapper">
         <BuildingSubsectionsWineTitle>
-            <template v-slot:title>新版</template>
-            <template v-slot:content>
+            <template #title>新版</template>
+            <template #content>
                 <div class="content">
                     <img class="mediumMarge picture" src="/images/SuperbCut-NewDesign.png" />
                     <div class="bulletPointsWrapper">

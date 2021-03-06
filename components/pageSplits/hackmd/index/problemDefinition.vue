@@ -1,8 +1,12 @@
 <template>
 	<div>
 		<BuildingSubsectionsNeutralTitle>
-			<template v-slot:title>定義問題</template>
-			<template v-slot:content>
+			<template #title>使用者研究</template>
+			<template #content>
+				<div class="mediumMarge">
+					<BuildingHeadersSmall class="darkerText gapMarge">使用者回饋收集</BuildingHeadersSmall>
+					<div class="darkerText">我們從各種管道獲取使用者的聲音：Facebook、Twitter、客服信箱、訪談、GA 數據等。在資源有限的情況下，我們需要考量使用者需求、開發可行性、商業目標，找出最適合團隊目前目標的開發順序。因此集中整理並分類使用者的回饋，對於決定產品開發方向會有顯著的幫助。</div>
+				</div>
 				<div class="mediumMarge">
 					<BuildingHeadersSmall class="darkerText gapMarge">競品分析 (Competitor analysis)</BuildingHeadersSmall>
 					<div class="darkerText">在此項目開始前進行全面的評估。我收集了幾個 HackMD 的競爭對手，包含直接競爭（文件撰寫服務，例如 Notion、Gitbook、Google document 等）及間接競爭（文件社群平台，如 Medium、stackoverflow、Qiita 等）。以此找出 HackMD 在市場上的定位。</div>
@@ -17,17 +21,12 @@
 						:config="sliding_cards_config"
 					/>
 				</div>
-				<div class="bigGapMarge">
-					<BuildingHeadersSmall class="darkerText gapMarge">產品資訊架構（Information Architecture）</BuildingHeadersSmall>
-					<div class="darkerText">這次也必須支援新增的功能：讓使用者能夠切換自己的工作空間、團隊空間、公開頁面。為了讓使用者能夠操作流暢，在著手進行視覺設計改版前，重新定義目前資訊架構的層級關聯，讓功能擺放更合理。</div>
-				</div>
-				<div class="darkerText bigGapMarge">若需要疊加新的功能時，能有邏輯地加在合理的類別中，降低未來維護成本。</div>
-				<img class="mediumMarge" src="/images/Overview-IA.png"/>
-				<div class="mediumMarge">
-					<BuildingHeadersSmall class="darkerText gapMarge">使用者回饋收集</BuildingHeadersSmall>
-					<div class="darkerText">我們從各種管道獲取使用者的聲音：Facebook、Twitter、客服信箱、訪談等。在資源有限的情況下，我們需要考量使用者需求、開發可行性、商業目標，找出最適合團隊目前目標的開發順序。因此集中整理並分類使用者的回饋，對於決定產品開發方向會有顯著的幫助。</div>
-				</div>
-				<div class="bigGapMarge">
+				<BuildingHeadersSmall class="gapMarge">顧客旅程地圖及訪談驗證</BuildingHeadersSmall>
+				<div class="gapMarge">依照現有的 Persona 為基礎，邀請團隊成員一起腦力激盪，擬定顧客旅程地圖，假設使用者在團隊協作的過程中有碰到哪些問題、進行什麼行為。</div>
+				<div class="bigGapMarge">以這些假設為基礎擬定訪談問題，並聯絡符合 Persona 的使用者參與訪談。除了進一步驗證先前的假設以外，也試著挖掘更多團隊不知道的亮點。</div>
+				<img class="bigGapMarge" src="/images/Comment-UserJourneyMaps.png" />
+				<div class="smallOpaCenterText mediumMarge">每個 Persona 會有不同的行為和痛點，上述為開發團隊主管的顧客旅程地圖</div>
+				<div>
 					<BuildingHeadersSmall class="darkerText gapMarge">Design sprint</BuildingHeadersSmall>
 					<div
 						class="bulletPointsOuterWrapper bigGapMarge"
@@ -37,7 +36,10 @@
 						<BuildingBulletPoint :index="index + 1">{{ content }}</BuildingBulletPoint>
 					</div>
 					<img src="/images/Overview-DesignSprint.png" class="bigGapMarge" />
-					<div class="darkerText smallOpaCenterText">我們將使用者需求、商業目標、團隊資源等資訊整理成產品藍圖，幫助我們評估優先順序</div>
+					<div class="bigGapMarge darkerText smallOpaCenterText">我們將使用者需求、商業目標、團隊資源等資訊整理成產品藍圖，幫助我們評估優先順序</div>
+					<div>
+						<span>經過討論，我們決定優先改善 Overview 頁面的導覽體驗，除了解決使用者難以找到筆記的問題以外，同時為未來開發新功能、整合其它生產力工具做準備。</span>
+					</div>
 				</div>
 			</template>
 		</BuildingSubsectionsNeutralTitle>

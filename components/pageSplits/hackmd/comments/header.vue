@@ -4,7 +4,7 @@
 			<BuildingHeadersBigger class="titleMarge">
 				<span>HackMD</span>
 				<br/>
-				<span>團隊協作留言功能</span>
+				<span>留言功能優化</span>
 			</BuildingHeadersBigger>
 			<img src="/images/HackMD-Comment-MainPic.png">
 		</BuildingSection>

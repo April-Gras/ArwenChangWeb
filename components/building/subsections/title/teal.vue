@@ -1,9 +1,9 @@
 <template>
 	<SubsectionsTitleTemplate>
-		<template v-slot:title>
+		<template #title>
 			<slot name="title"></slot>
 		</template>
-		<template v-slot:content>
+		<template #content>
 			<slot name="content"></slot>
 		</template>
 	</SubsectionsTitleTemplate>

@@ -1,8 +1,8 @@
 <template>
 	<div class="learnedAndReflected">
 		<BuildingSubsectionsWineTitle>
-			<template v-slot:title>反思與學習</template>
-			<template v-slot:content>
+			<template #title>反思與學習</template>
+			<template #content>
 				<div class="content">
 					<BuildingBulletPoint
 						v-for="(elem, index) in content"

@@ -26,9 +26,9 @@
 				:key="index"
 				v-bind="card.props"
 			>
-				<template v-slot:date>{{ card.date }}</template>
-				<template v-slot:title>{{ card.title }}</template>
-				<template v-slot:subtitle>{{ card.subtitle }}</template>
+				<template #date>{{ card.date }}</template>
+				<template #title>{{ card.title }}</template>
+				<template #subtitle>{{ card.subtitle }}</template>
 			</BuildingCardsPreview>
 		</BuildingSection>
 	</div>

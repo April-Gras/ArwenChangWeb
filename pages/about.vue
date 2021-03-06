@@ -15,38 +15,38 @@
 		</div>
 		<BuildingSection class="resumeSectionWrap">
 			<BuildingSubsectionsTealTitle>
-				<template v-slot:title>工作經驗</template>
-				<template v-slot:content>
+				<template #title>工作經驗</template>
+				<template #content>
 					<div class="tripleContentWrap">
 						<BuildingSubsectionsTripleContent>
-							<template v-slot:title>HackMD (嗨筆記股份有限公司)</template>
-							<template v-slot:subtitle>
+							<template #title>HackMD (嗨筆記股份有限公司)</template>
+							<template #subtitle>
 								<span>UI / UX 設計師及專案管理</span>
 								<span>2018 Jul. - 迄今</span>
 							</template>
-							<template v-slot:text>
+							<template #text>
 								<span>身兼產品設計師、使用者經驗研究員及專案管理</span>
 								<span>優化並開發全球月活躍用戶 50 萬的開發者協作工具</span>
 							</template>
 						</BuildingSubsectionsTripleContent>
 						<BuildingSubsectionsTripleContent>
-							<template v-slot:title>米果數位行銷</template>
-							<template v-slot:subtitle>
+							<template #title>米果數位行銷</template>
+							<template #subtitle>
 								<span>網頁設計師</span>
 								<span>2016 Nov. - 2018 Jun.</span>
 							</template>
-							<template v-slot:text>
+							<template #text>
 								<span>與專案經理、工程師合作，設計超過 50 件企業形象網站及活動頁</span>
 								<span>從提案、設計到網頁切版(含 RWD)都可以獨立作業完成</span>
 							</template>
 						</BuildingSubsectionsTripleContent>
 						<BuildingSubsectionsTripleContent>
-							<template v-slot:title>台灣自由行 g02tw (精銳合威股份有限公司)</template>
-							<template v-slot:subtitle>
+							<template #title>台灣自由行 g02tw (精銳合威股份有限公司)</template>
+							<template #subtitle>
 								<span>平面及網頁設計師</span>
 								<span>2016 Mar. - 2016 Oct.</span>
 							</template>
-							<template v-slot:text>
+							<template #text>
 								<span>負責台灣自由行線上旅遊服務的平面設計、吉祥物設計、網站活動頁設計及介面改版</span>
 							</template>
 						</BuildingSubsectionsTripleContent>
@@ -54,12 +54,12 @@
 				</template>
 			</BuildingSubsectionsTealTitle>
 			<BuildingSubsectionsTealTitle>
-				<template v-slot:title>專業技能</template>
-				<template v-slot:content>
+				<template #title>專業技能</template>
+				<template #content>
 					<div class="tripleContentWrap">
 						<BuildingSubsectionsTripleContent>
-							<template v-slot:title>設計技能</template>
-							<template v-slot:text>
+							<template #title>設計技能</template>
+							<template #text>
 								<div class="pillHolder">
 									<BuildingPill
 										v-for="(elem, index) in conception_skills"
@@ -69,8 +69,8 @@
 							</template>
 						</BuildingSubsectionsTripleContent>
 						<BuildingSubsectionsTripleContent>
-							<template v-slot:title>工具</template>
-							<template v-slot:text>
+							<template #title>工具</template>
+							<template #text>
 								<div class="pillHolder">
 									<BuildingPill
 										v-for="(elem, index) in tool_skills"
@@ -83,11 +83,11 @@
 				</template>
 			</BuildingSubsectionsTealTitle>
 			<BuildingSubsectionsTealTitle>
-				<template v-slot:title>學歷</template>
-				<template v-slot:content>
+				<template #title>學歷</template>
+				<template #content>
 					<BuildingSubsectionsTripleContent>
-						<template v-slot:title>臺北市立大學 視覺藝術學系</template>
-						<template v-slot:subtitle>2011 - 2015</template>
+						<template #title>臺北市立大學 視覺藝術學系</template>
+						<template #subtitle>2011 - 2015</template>
 					</BuildingSubsectionsTripleContent>
 				</template>
 			</BuildingSubsectionsTealTitle>
