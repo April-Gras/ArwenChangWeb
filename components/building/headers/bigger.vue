@@ -10,7 +10,7 @@
 </script>
 <style scoped>
 	.bigger {
-		font-weight: 700;
+		font-weight: 600;
 		font-size: var(--font-size-title-bigger);
 		line-height: 40px;
 	}
