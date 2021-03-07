@@ -13,7 +13,7 @@ a {
 }
 
 body {
-	color: var(--color-darkest);
+	color: var(--color-darker);
 	font-family: Hind, NotoSansTC;
 	margin: 0px;
     font-size: var(--font-size-regular);

@@ -8,8 +8,7 @@
 					<div class="gapMarge">蒐集整理使用者反應的易用性問題，將痛點整理成 User story。</div>
 					<div class="gapMarge">依據商業目標、開發資源來決定開發多少內容即可推出新版本，並把尚未開發的優化計畫紀錄下來。</div>
 					<div class="bigGapMarge">
-						<span>在設計第一版時，也會</span>
-						<b>一併考量相關功能的流程及設計，避免後續功能擴充時大幅度調整介面，讓使用者要重新學習且造成困惑。</b>
+						<span>在設計第一版時，也會</span><b>一併考量相關功能的流程及設計，避免後續功能擴充時大幅度調整介面，讓使用者要重新學習且造成困惑。</b>
 					</div>
 					<img class="mediumMarge" src="/images/Comment-Scope.png" />
 				</div>
@@ -112,6 +111,7 @@
 	display: block;
 	object-position: cover;
 	object-position: center;
+	max-height: 336px;
 }
 
 .asymetricGridWrapper {
@@ -124,7 +124,10 @@
 </style>
 <style scoped>
 	@media screen and (min-width: 768px) {
-		.asymetricGridWrapper { grid-template-columns: 6fr 4fr; }
+		.asymetricGridWrapper { 
+			grid-template-columns: 6fr 4fr;
+			height: 336px;
+		}
 	}
 </style>
 <style scoped>

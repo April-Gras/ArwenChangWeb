@@ -4,7 +4,7 @@
 			<BuildingHeadersBig class="centerTitle smallTitleMarge">舊版的筆記留言功能</BuildingHeadersBig>
 			<BuildingSubsectionsDoubleContent class="mediumMarge">
 				<div v-for="(config, index) in doubleContentConfig" :key="index">
-					<BuildingHeadersRegular class="bigGapMarge centerTitle">{{ config.title }}</BuildingHeadersRegular>
+					<BuildingHeadersSmall class="bigGapMarge centerTitle">{{ config.title }}</BuildingHeadersSmall>
 					<img class="picture" :src="config.pictureUrl" />
 				</div>
 			</BuildingSubsectionsDoubleContent>
@@ -24,14 +24,14 @@
 	import Vue from 'vue'
 
 	import BuildingHeadersBig from "@/components/building/headers/big.vue"
-	import BuildingHeadersRegular from "@/components/building/headers/regular.vue"
+	import BuildingHeadersSmall from "@/components/building/headers/small.vue"
 	import BuildingSubsectionsDoubleContent from "@/components/building/subsections/doubleContent.vue"
 	import BuildingBulletPoint from '@/components/building/bulletPoint.vue';
 
 	export default Vue.extend({
 		components: {
 			BuildingHeadersBig,
-			BuildingHeadersRegular,
+			BuildingHeadersSmall,
 			BuildingSubsectionsDoubleContent,
 			BuildingBulletPoint,
 		},

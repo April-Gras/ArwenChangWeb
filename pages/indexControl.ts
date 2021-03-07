@@ -56,7 +56,7 @@ export default Vue.extend({
 				}
 			}, {
 				date: 2020,
-				title: 'HackMD\n團隊協作留言功能',
+				title: 'HackMD\n留言功能優化',
 				subtitle: '優化既有的筆記留言功能，讓使用者能更有效率地基於文件內容做溝通討論',
 				props: {
 					color: 'teal-bg',

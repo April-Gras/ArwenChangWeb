@@ -1,7 +1,7 @@
 <template>
-	<h2 class="title biggest">
+	<h1 class="title biggest">
 		<slot></slot>
-	</h2>
+	</h1>
 </template>
 <script lang="ts">
 	import Vue	from 'vue';

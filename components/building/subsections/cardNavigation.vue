@@ -31,7 +31,7 @@
 			available: function() {
 				return [{
 					color: 'grey',
-					text: 'HackMD\nOverview 重新設計',
+					text: 'HackMD 改版\n強化使用者體驗',
 					path: '/hackmd/',
 				}, {
 					color: 'teal-bg',

@@ -22,7 +22,7 @@
 							<template #title>HackMD (嗨筆記股份有限公司)</template>
 							<template #subtitle>
 								<span>UI / UX 設計師及專案管理</span>
-								<span>2018 Jul. - 迄今</span>
+								<span>2018 Jul. - 2020 Nov.</span>
 							</template>
 							<template #text>
 								<span>身兼產品設計師、使用者經驗研究員及專案管理</span>
